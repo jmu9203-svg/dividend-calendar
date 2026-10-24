@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>내 배당금 캘린더 | 실시간 배당 자산 관제</title>
+  
+  <link rel="apple-touch-icon" href="https://img.icons8.com/color/180/calendar--v1.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="배당캘린더">
+  <meta name="theme-color" content="#0d1117">
+
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --card-border: #30363d;
+      --text-main: #f0f6fc;
+      --text-sub: #8b949e;
+      --gold: #f59e0b;
+      --gold-bg: rgba(245, 158, 11, 0.15);
+      --green: #10b981;
+      --green-bg: rgba(16, 185, 129, 0.15);
+      --blue: #3b82f6;
+      --blue-bg: rgba(59, 130, 246, 0.15);
+      --pill-bg: #21262d;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Segoe UI", Roboto, sans-serif; }
+    body { background-color: var(--bg); color: var(--text-main); padding: 16px; max-width: 680px; margin: 0 auto; -webkit-font-smoothing: antialiased; }
+
+    /* Top Family Navigation Bar */
+    .nav-tabs { display: flex; gap: 6px; background: #161b22; padding: 4px; border-radius: 12px; margin-bottom: 16px; border: 1px solid var(--card-border); }
+    .nav-tab-item { flex: 1; text-align: center; padding: 8px 6px; font-size: 12px; font-weight: 600; color: var(--text-sub); text-decoration: none; border-radius: 8px; transition: all 0.2s; white-space: nowrap; }
+    .nav-tab-item:hover { color: var(--text-main); }
+    .nav-tab-item.active { background: #21262d; color: #fff; border: 1px solid rgba(255,255,255,0.1); }
+
+    /* Header */
+    .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+    .title-group h1 { font-size: 22px; font-weight: 800; display: flex; align-items: center; gap: 8px; }
+    .title-group p { font-size: 13px; color: var(--text-sub); margin-top: 4px; }
+    .div-tag { font-size: 11px; background: var(--gold-bg); color: var(--gold); border: 1px solid rgba(245, 158, 11, 0.4); padding: 2px 8px; border-radius: 12px; font-weight: 700; }
+    
+    .status-badge { display: flex; align-items: center; gap: 6px; background: var(--pill-bg); border: 1px solid var(--card-border); padding: 6px 12px; border-radius: 20px; font-size: 12px; color: var(--text-main); }
+    .pulse-dot { width: 8px; height: 8px; background-color: var(--gold); border-radius: 50%; box-shadow: 0 0 8px var(--gold); animation: pulse 2s infinite; }
+    @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.3; } 100% { opacity: 1; } }
+
+    /* Summary Card */
+    .summary-card { background: linear-gradient(145deg, #161b22, #1c2128); border: 1px solid var(--card-border); border-radius: 16px; padding: 22px; margin-bottom: 20px; position: relative; overflow: hidden; }
+    .summary-card::before { content: ""; position: absolute; top: -50px; right: -50px; width: 150px; height: 150px; background: radial-gradient(circle, rgba(245, 158, 11, 0.12), transparent 70%); border-radius: 50%; pointer-events: none; }
+    .summary-title { font-size: 13px; color: var(--text-sub); font-weight: 600; display: flex; justify-content: space-between; }
+    .total-div { font-size: 32px; font-weight: 800; margin: 10px 0 6px 0; color: #fff; letter-spacing: -0.5px; }
+    .sub-div-info { font-size: 14px; color: var(--gold); font-weight: 600; display: flex; align-items: center; gap: 6px; }
+
+    .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--card-border); }
+    .stat-item { font-size: 13px; }
+    .stat-label { color: var(--text-sub); margin-bottom: 4px; }
+    .stat-value { font-weight: 700; color: var(--text-main); font-size: 15px; }
+
+    /* Fun Metrics Banner */
+    .fun-banner { display: flex; gap: 10px; background: rgba(245, 158, 11, 0.08); border: 1px dashed rgba(245, 158, 11, 0.3); border-radius: 12px; padding: 12px 16px; margin-bottom: 20px; font-size: 13px; align-items: center; }
+    .fun-badge { background: var(--gold-bg); color: var(--gold); padding: 3px 8px; border-radius: 6px; font-weight: 700; font-size: 11px; white-space: nowrap; }
+
+    /* Section Header */
+    .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+    .section-title { font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 6px; }
+    .section-sub { font-size: 12px; color: var(--text-sub); }
+
+    /* Monthly Bar Chart */
+    .chart-card { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 16px; padding: 20px; margin-bottom: 24px; }
+    .bar-chart { display: flex; align-items: flex-end; justify-content: space-between; height: 160px; padding-top: 20px; gap: 6px; }
+    .bar-col { flex: 1; display: flex; flex-direction: column; align-items: center; height: 100%; justify-content: flex-end; cursor: pointer; }
+    .bar-col:hover .bar-fill { opacity: 0.85; transform: scaleY(1.03); }
+    .bar-val { font-size: 10px; color: var(--text-sub); margin-bottom: 6px; font-weight: 600; text-align: center; }
+    .bar-fill { width: 100%; background: linear-gradient(180deg, var(--gold), #d97706); border-radius: 6px 6px 2px 2px; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); min-height: 4px; transform-origin: bottom; }
+    .bar-fill.active { background: linear-gradient(180deg, #34d399, #059669); box-shadow: 0 0 10px rgba(16, 185, 129, 0.5); }
+    .bar-label { font-size: 11px; color: var(--text-sub); margin-top: 8px; font-weight: 600; }
+    .bar-col.current-month .bar-label { color: #fff; font-weight: 800; text-decoration: underline; text-underline-offset: 3px; }
+
+    /* Selected Month Detail Box */
+    .month-detail-box { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 14px 16px; margin-top: 16px; }
+    .month-detail-title { font-size: 13px; font-weight: 700; color: var(--gold); margin-bottom: 10px; display: flex; justify-content: space-between; }
+    .month-stock-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.04); font-size: 13px; }
+    .month-stock-row:last-child { border-bottom: none; }
+
+    /* Upcoming Timeline Cards */
+    .timeline-list { display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px; }
+    .timeline-card { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 12px; padding: 14px 16px; display: flex; justify-content: space-between; align-items: center; }
+    .timeline-left { display: flex; align-items: center; gap: 10px; }
+    .month-badge { width: 44px; height: 44px; background: var(--pill-bg); border-radius: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 800; border: 1px solid var(--card-border); }
+    .month-badge-month { font-size: 11px; color: var(--text-sub); }
+    .month-badge-num { font-size: 16px; color: var(--gold); }
+    .timeline-info h4 { font-size: 14px; font-weight: 700; }
+    .timeline-info p { font-size: 12px; color: var(--text-sub); margin-top: 2px; }
+    .timeline-pay { text-align: right; }
+    .timeline-amt { font-size: 14px; font-weight: 700; color: var(--green); }
+    .timeline-qty { font-size: 11px; color: var(--text-sub); margin-top: 2px; }
+
+    /* Portfolio Dividend List */
+    .holdings-list { display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px; }
+    .stock-card { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 14px; padding: 16px; }
+    .stock-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
+    .stock-title { display: flex; align-items: center; gap: 6px; }
+    .flag-tag { font-size: 11px; padding: 2px 6px; border-radius: 4px; font-weight: 700; }
+    .flag-kr { background: rgba(59, 130, 246, 0.2); color: #60a5fa; }
+    .flag-us { background: rgba(16, 185, 129, 0.2); color: #34d399; }
+    .stock-name { font-size: 15px; font-weight: 700; }
+    .stock-symbol { font-size: 12px; color: var(--text-sub); }
+    .stock-annual-pay { text-align: right; font-size: 15px; font-weight: 700; color: var(--gold); }
+    .stock-desc { font-size: 12px; color: var(--text-sub); line-height: 1.4; margin-top: 6px; }
+
+    .tag-row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+    .pill { background: var(--pill-bg); border-radius: 6px; padding: 4px 8px; font-size: 11px; color: var(--text-sub); font-weight: 600; }
+    .pill-highlight { color: #fff; background: rgba(255,255,255,0.08); }
+
+    /* Simulator */
+    .sim-card { background: linear-gradient(145deg, #161b22, #1b222c); border: 1px solid var(--card-border); border-radius: 16px; padding: 20px; margin-bottom: 24px; }
+    .slider-group { margin: 16px 0; }
+    .slider-label { display: flex; justify-content: space-between; font-size: 13px; font-weight: 600; margin-bottom: 8px; }
+    input[type=range] { width: 100%; height: 6px; border-radius: 3px; background: #30363d; outline: none; -webkit-appearance: none; }
+    input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; border-radius: 50%; background: var(--gold); cursor: pointer; }
+    .sim-result-box { background: rgba(0,0,0,0.25); border-radius: 12px; padding: 16px; text-align: center; border: 1px solid rgba(255,255,255,0.06); }
+    .sim-future-div { font-size: 26px; font-weight: 800; color: var(--green); margin: 6px 0; }
+
+    /* Footer */
+    .footer { text-align: center; color: var(--text-sub); font-size: 12px; padding: 20px 0; border-top: 1px solid var(--card-border); margin-top: 10px; }
+    .footer-detail { display: flex; justify-content: center; gap: 12px; margin-top: 6px; }
+  </style>
+</head>
+<body>
+
+  <!-- Top Family Navigation -->
+  <div class="nav-tabs">
+    <a href="https://jmu9203-svg.github.io/kis-dashboard/" class="nav-tab-item">💼 한투 500만 펀드</a>
+    <a href="https://jmu9203-svg.github.io/toss-dashboard/" class="nav-tab-item">💙 토스 실전 비서</a>
+    <a href="https://jmu9203-svg.github.io/dividend-calendar/" class="nav-tab-item active">📅 배당금 캘린더</a>
+  </div>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="title-group">
+      <h1>내 배당금 캘린더 <span class="div-tag">Dividend</span></h1>
+      <p>토스 & 한투 통합 실시간 배당금 파이프라인</p>
+    </div>
+    <div class="status-badge">
+      <div class="pulse-dot"></div>
+      <span id="deviceBattery">🔋 100%</span>
+    </div>
+  </div>
+
+  <!-- Annual Summary Card -->
+  <div class="summary-card">
+    <div class="summary-title">
+      <span>연간 예상 총 배당금 (토스 + 한투 통합)</span>
+      <span id="rateInfo">환율: 1,385원 기준</span>
+    </div>
+    <div class="total-div" id="totalAnnualKrw">--원</div>
+    <div class="sub-div-info" id="totalAnnualUsd">
+      <span>💵 달러 배당 $-- 포함</span>
+    </div>
+
+    <div class="stat-grid">
+      <div class="stat-item">
+        <div class="stat-label">📆 월평균 배당 수령액</div>
+        <div class="stat-value" id="avgMonthlyKrw" style="color: var(--green);">--원/월</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-label">📊 보유 배당 종목 수</div>
+        <div class="stat-value" id="itemCount">0개 종목</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fun Real-Life Value Banner -->
+  <div class="fun-banner">
+    <span class="fun-badge">실감 체감 가치</span>
+    <span id="funText">매달 스타벅스 커피 3잔과 연간 치킨 8마리를 공짜로 받는 셈이에요! 🍗☕</span>
+  </div>
+
+  <!-- Monthly Bar Chart -->
+  <div class="chart-card">
+    <div class="section-header">
+      <div class="section-title">📊 1~12월 월별 배당금 로드맵</div>
+      <div class="section-sub">막대를 클릭해 상세 내역 확인</div>
+    </div>
+
+    <div class="bar-chart" id="barChartContainer">
+      <!-- 1~12월 막대 동적 렌더링 -->
+    </div>
+
+    <div class="month-detail-box" id="monthDetailBox">
+      <div class="month-detail-title">
+        <span id="selectedMonthTitle">이번 달 배당 내역</span>
+        <span id="selectedMonthTotal">--원</span>
+      </div>
+      <div id="selectedMonthStocks">
+        <!-- 종목 리스트 -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Upcoming Timeline -->
+  <div class="section-header">
+    <div class="section-title">⏰ 다가오는 배당금 타임라인</div>
+    <div class="section-sub">월배당 & 분기배당 예정</div>
+  </div>
+  <div class="timeline-list" id="timelineList">
+    <!-- 동적 렌더링 -->
+  </div>
+
+  <!-- Stock Breakdown -->
+  <div class="section-header">
+    <div class="section-title">📦 종목별 연간 배당 기여도</div>
+    <div class="section-sub">계좌별 수량 통합 합산</div>
+  </div>
+  <div class="holdings-list" id="stockList">
+    <!-- 동적 렌더링 -->
+  </div>
+
+  <!-- Reinvestment Simulator -->
+  <div class="sim-card">
+    <div class="section-header">
+      <div class="section-title">📈 배당 재투자 복리 시뮬레이터</div>
+      <div class="section-sub">SCHD·SGOV 재투자 효과</div>
+    </div>
+    <p style="font-size: 12px; color: var(--text-sub); line-height: 1.5; margin-bottom: 12px;">
+      받은 배당금을 쓰지 않고 배당 ETF에 재투자하고 매달 조금씩 적립할 때 자산이 어떻게 불어나는지 확인해보세요.
+    </p>
+
+    <div class="slider-group">
+      <div class="slider-label">
+        <span>재투자 기간</span>
+        <span id="simYearsLabel" style="color: var(--gold); font-weight: 700;">10년</span>
+      </div>
+      <input type="range" id="simYears" min="1" max="25" value="10" oninput="updateSim()">
+    </div>
+
+    <div class="slider-group">
+      <div class="slider-label">
+        <span>월 추가 적립액 (원화)</span>
+        <span id="simMonthlyLabel" style="color: var(--gold); font-weight: 700;">10만 원</span>
+      </div>
+      <input type="range" id="simMonthly" min="0" max="1000000" step="50000" value="100000" oninput="updateSim()">
+    </div>
+
+    <div class="sim-result-box">
+      <div style="font-size: 12px; color: var(--text-sub);">예상 미래 연간 배당금 (연 7% 복리 + 배당성장 가정)</div>
+      <div class="sim-future-div" id="simFutureDiv">약 240만 원/년</div>
+      <div style="font-size: 12px; color: var(--gold);" id="simFutureMonthly">매달 약 20만 원의 패시브 인컴!</div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div id="lastUpdated">최근 업데이트: 조회 중...</div>
+    <div class="footer-detail">
+      <span>통합 자산: 토스 실전계좌 + 한투 500만 펀드</span>
+      <span>•</span>
+      <span>자동 새로고침: 15초</span>
+    </div>
+  </div>
+
+  <script>
+    let globalData = null;
+    let selectedMonth = new Date().getMonth() + 1; // 기본값: 현재 월
+
+    async function loadData() {
+      try {
+        const res = await fetch('dividend_data.json?t=' + new Date().getTime());
+        if (!res.ok) throw new Error('데이터 대기 중');
+        globalData = await res.json();
+        renderData(globalData);
+      } catch (e) {
+        console.warn('데이터 로드 실패:', e);
+      }
+    }
+
+    function renderData(d) {
+      if (d.battery) {
+        document.getElementById('deviceBattery').textContent = '🔋 ' + d.battery;
+      }
+      document.getElementById('lastUpdated').textContent = '최근 배당 동기화: ' + (d.updated_at || '--');
+      document.getElementById('rateInfo').textContent = '환율: ' + (d.usd_krw_rate ? d.usd_krw_rate.toLocaleString() : '1,385') + '원 기준';
+
+      const annualKrw = d.total_annual_krw || 0;
+      const annualUsd = d.total_annual_usd || 0;
+      const monthlyKrw = d.avg_monthly_krw || 0;
+
+      document.getElementById('totalAnnualKrw').textContent = annualKrw.toLocaleString() + '원';
+      document.getElementById('totalAnnualUsd').textContent = `💵 달러 배당 $${annualUsd.toFixed(2)} 포함 (원화+달러 통합)`;
+      document.getElementById('avgMonthlyKrw').textContent = monthlyKrw.toLocaleString() + '원/월';
+      document.getElementById('itemCount').textContent = (d.item_count || 0) + '개 종목';
+
+      const fun = d.fun_metrics || {};
+      document.getElementById('funText').textContent = `매달 스타벅스 커피 약 ${fun.coffee_monthly || 3}잔과 연간 치킨 약 ${fun.chicken_annual || 8}마리를 배당금으로 공짜로 받는 셈이에요! 🍗☕`;
+
+      renderBarChart(d.monthly_calendar || []);
+      renderMonthDetail(selectedMonth, d.monthly_calendar || []);
+      renderUpcoming(d.upcoming_payments || []);
+      renderStockList(d.items || []);
+      updateSim();
+    }
+
+    function renderBarChart(months) {
+      const container = document.getElementById('barChartContainer');
+      const maxVal = Math.max(...months.map(m => m.krw_converted_total), 1);
+      const currentMonth = new Date().getMonth() + 1;
+
+      container.innerHTML = months.map(m => {
+        const heightPct = Math.max(8, (m.krw_converted_total / maxVal) * 100);
+        const isCurrent = m.month === currentMonth;
+        const isSelected = m.month === selectedMonth;
+        const amtStr = m.krw_converted_total > 0 ? (m.krw_converted_total >= 10000 ? Math.round(m.krw_converted_total / 10000) + '만' : Math.round(m.krw_converted_total / 1000) + 'k') : '0';
+
+        return `
+          <div class="bar-col ${isCurrent ? 'current-month' : ''}" onclick="selectMonth(${m.month})">
+            <span class="bar-val">${amtStr}</span>
+            <div class="bar-fill ${isSelected ? 'active' : ''}" style="height: ${heightPct}%;"></div>
+            <span class="bar-label">${m.month}월</span>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function selectMonth(m) {
+      selectedMonth = m;
+      if (globalData) {
+        renderBarChart(globalData.monthly_calendar || []);
+        renderMonthDetail(selectedMonth, globalData.monthly_calendar || []);
+      }
+    }
+
+    function renderMonthDetail(m, months) {
+      const bucket = months.find(item => item.month === m) || { krw_converted_total: 0, stocks: [] };
+      document.getElementById('selectedMonthTitle').textContent = `📅 ${m}월 예상 입금 내역`;
+      document.getElementById('selectedMonthTotal').textContent = bucket.krw_converted_total.toLocaleString() + '원';
+
+      const sContainer = document.getElementById('selectedMonthStocks');
+      if (!bucket.stocks || bucket.stocks.length === 0) {
+        sContainer.innerHTML = `<div style="font-size: 12px; color: var(--text-sub); padding: 8px 0; text-align: center;">이 달에는 배당 지급 예정 종목이 없습니다.</div>`;
+        return;
+      }
+
+      sContainer.innerHTML = bucket.stocks.map(s => {
+        const flag = s.country === 'KR' ? '🇰🇷' : '🇺🇸';
+        return `
+          <div class="month-stock-row">
+            <div>
+              <b>${flag} ${s.name}</b>
+              <span style="font-size: 11px; color: var(--text-sub); margin-left: 4px;">(${s.qty}주)</span>
+            </div>
+            <div style="font-weight: 700; color: var(--green);">${s.pay_str}</div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function renderUpcoming(list) {
+      const container = document.getElementById('timelineList');
+      if (!list || list.length === 0) {
+        container.innerHTML = `<div style="color: var(--text-sub); font-size: 13px;">예정된 배당 정보가 없습니다.</div>`;
+        return;
+      }
+      container.innerHTML = list.map(item => {
+        const flag = item.country === 'KR' ? '🇰🇷' : '🇺🇸';
+        return `
+          <div class="timeline-card">
+            <div class="timeline-left">
+              <div class="month-badge">
+                <span class="month-badge-month">PAY</span>
+                <span class="month-badge-num">${item.month}월</span>
+              </div>
+              <div class="timeline-info">
+                <h4>${flag} ${item.name}</h4>
+                <p>${item.month_label} • ${item.qty}주 보유</p>
+              </div>
+            </div>
+            <div class="timeline-pay">
+              <div class="timeline-amt">${item.pay_str}</div>
+              <div class="timeline-qty">예상 입금액</div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function renderStockList(items) {
+      const container = document.getElementById('stockList');
+      container.innerHTML = items.map(s => {
+        const isKr = s.country === 'KR';
+        const flagBadge = isKr ? '<span class="flag-tag flag-kr">🇰🇷 국내</span>' : '<span class="flag-tag flag-us">🇺🇸 미국</span>';
+        const annualStr = isKr ? s.annual_pay.toLocaleString() + '원' : `$${s.annual_pay.toFixed(2)} (약 ${s.annual_pay_krw.toLocaleString()}원)`;
+
+        return `
+          <div class="stock-card">
+            <div class="stock-top">
+              <div>
+                <div class="stock-title">
+                  ${flagBadge}
+                  <span class="stock-name">${s.name}</span>
+                  <span class="stock-symbol">${s.symbol}</span>
+                </div>
+                <div style="font-size: 12px; color: var(--text-sub); margin-top: 2px;">총 ${s.total_qty}주 (${s.account_desc})</div>
+              </div>
+              <div class="stock-annual-pay">${annualStr}</div>
+            </div>
+
+            <div class="stock-desc">${s.desc}</div>
+
+            <div class="tag-row">
+              <span class="pill pill-highlight">배당률 ${s.yield_pct}%</span>
+              <span class="pill">${s.freq_label}</span>
+              <span class="pill">지급월: ${s.pay_months.join(', ')}월</span>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function updateSim() {
+      const years = parseInt(document.getElementById('simYears').value);
+      const monthly = parseInt(document.getElementById('simMonthly').value);
+      document.getElementById('simYearsLabel').textContent = years + '년';
+      document.getElementById('simMonthlyLabel').textContent = (monthly / 10000).toLocaleString() + '만 원';
+
+      let currentAsset = 15000000; // 초기 원금 약 1500만 원 가정 (한투 + 토스 통합 평가액)
+      const r = 0.07; // 연 7% 수익률 가정
+      const divYield = 0.04; // 평균 배당률 4%
+
+      for (let y = 0; y < years; y++) {
+        currentAsset = (currentAsset + (monthly * 12)) * (1 + r);
+      }
+
+      const futureAnnualDiv = Math.round(currentAsset * divYield);
+      const futureMonthlyDiv = Math.round(futureAnnualDiv / 12);
+
+      document.getElementById('simFutureDiv').textContent = '약 ' + (futureAnnualDiv / 10000).toLocaleString() + '만 원/년';
+      document.getElementById('simFutureMonthly').textContent = `매달 약 ${(futureMonthlyDiv / 10000).toFixed(1)}만 원의 든든한 패시브 인컴!`;
+    }
+
+    loadData();
+    setInterval(loadData, 15000);
+  </script>
+</body>
+</html>
