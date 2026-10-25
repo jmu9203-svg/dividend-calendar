@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25 23:16:31",
+  "updated_at": "2026-10-25 23:20:32",
   "usd_krw_rate": 1385.0,
   "battery": "85% (⚡ NOT_CHARGING)",
   "total_annual_krw": 195146,
@@ -11,46 +11,6 @@
   },
   "item_count": 7,
   "items": [
-    {
-      "symbol": "105560",
-      "name": "KB금융",
-      "country": "KR",
-      "currency": "KRW",
-      "total_qty": 9,
-      "account_desc": "한투 9주",
-      "freq_label": "분기배당 (2, 5, 8, 11월)",
-      "pay_months": [
-        2,
-        5,
-        8,
-        11
-      ],
-      "annual_pay": 28620,
-      "annual_pay_krw": 28620,
-      "single_pay": 7155,
-      "yield_pct": 5.4,
-      "desc": "정부 밸류업 1위 & 주주환원율 최고 금융지주사"
-    },
-    {
-      "symbol": "005930",
-      "name": "삼성전자",
-      "country": "KR",
-      "currency": "KRW",
-      "total_qty": 30.0,
-      "account_desc": "토스 21주 + 한투 9주",
-      "freq_label": "분기배당 (4, 5, 8, 11월)",
-      "pay_months": [
-        4,
-        5,
-        8,
-        11
-      ],
-      "annual_pay": 43320,
-      "annual_pay_krw": 43320,
-      "single_pay": 10830,
-      "yield_pct": 2.5,
-      "desc": "대한민국 1위 대장주 & 든든한 분기배당주"
-    },
     {
       "symbol": "000660",
       "name": "SK하이닉스",
@@ -70,6 +30,46 @@
       "single_pay": 600,
       "yield_pct": 0.85,
       "desc": "HBM 글로벌 1위 반도체 성장주"
+    },
+    {
+      "symbol": "KO",
+      "name": "코카콜라 (Coca-Cola)",
+      "country": "US",
+      "currency": "USD",
+      "total_qty": 4.0,
+      "account_desc": "토스 4주",
+      "freq_label": "분기배당 (4, 7, 10, 12월)",
+      "pay_months": [
+        4,
+        7,
+        10,
+        12
+      ],
+      "annual_pay": 7.76,
+      "annual_pay_krw": 10747,
+      "single_pay": 1.94,
+      "yield_pct": 3.12,
+      "desc": "62년 연속 배당 인상 배당킹 (워런 버핏의 평생 보유주)"
+    },
+    {
+      "symbol": "105560",
+      "name": "KB금융",
+      "country": "KR",
+      "currency": "KRW",
+      "total_qty": 9,
+      "account_desc": "한투 9주",
+      "freq_label": "분기배당 (2, 5, 8, 11월)",
+      "pay_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "annual_pay": 28620,
+      "annual_pay_krw": 28620,
+      "single_pay": 7155,
+      "yield_pct": 5.4,
+      "desc": "정부 밸류업 1위 & 주주환원율 최고 금융지주사"
     },
     {
       "symbol": "005380",
@@ -119,26 +119,6 @@
       "desc": "미국 초단기 국채 월배당 ETF (달러 안전 파킹 통장)"
     },
     {
-      "symbol": "KO",
-      "name": "코카콜라 (Coca-Cola)",
-      "country": "US",
-      "currency": "USD",
-      "total_qty": 4.0,
-      "account_desc": "토스 4주",
-      "freq_label": "분기배당 (4, 7, 10, 12월)",
-      "pay_months": [
-        4,
-        7,
-        10,
-        12
-      ],
-      "annual_pay": 7.76,
-      "annual_pay_krw": 10747,
-      "single_pay": 1.94,
-      "yield_pct": 3.12,
-      "desc": "62년 연속 배당 인상 배당킹 (워런 버핏의 평생 보유주)"
-    },
-    {
       "symbol": "SCHD",
       "name": "Schwab U.S. Dividend Equity ETF",
       "country": "US",
@@ -157,6 +137,26 @@
       "single_pay": 3.0,
       "yield_pct": 3.45,
       "desc": "미국 100대 고배당 성장 ETF (10년 연속 배당성장)"
+    },
+    {
+      "symbol": "005930",
+      "name": "삼성전자",
+      "country": "KR",
+      "currency": "KRW",
+      "total_qty": 30.0,
+      "account_desc": "토스 21주 + 한투 9주",
+      "freq_label": "분기배당 (4, 5, 8, 11월)",
+      "pay_months": [
+        4,
+        5,
+        8,
+        11
+      ],
+      "annual_pay": 43320,
+      "annual_pay_krw": 43320,
+      "single_pay": 10830,
+      "yield_pct": 2.5,
+      "desc": "대한민국 1위 대장주 & 든든한 분기배당주"
     }
   ],
   "monthly_calendar": [
@@ -241,16 +241,6 @@
       "krw_converted_total": 39902,
       "stocks": [
         {
-          "symbol": "005930",
-          "name": "삼성전자",
-          "country": "KR",
-          "currency": "KRW",
-          "pay": 10830,
-          "pay_krw": 10830,
-          "pay_str": "10,830원",
-          "qty": 30.0
-        },
-        {
           "symbol": "000660",
           "name": "SK하이닉스",
           "country": "KR",
@@ -259,6 +249,16 @@
           "pay_krw": 600,
           "pay_str": "600원",
           "qty": 2.0
+        },
+        {
+          "symbol": "KO",
+          "name": "코카콜라 (Coca-Cola)",
+          "country": "US",
+          "currency": "USD",
+          "pay": 1.94,
+          "pay_krw": 2686,
+          "pay_str": "$1.94 (약 2,686원)",
+          "qty": 4.0
         },
         {
           "symbol": "005380",
@@ -281,14 +281,14 @@
           "qty": 3.0
         },
         {
-          "symbol": "KO",
-          "name": "코카콜라 (Coca-Cola)",
-          "country": "US",
-          "currency": "USD",
-          "pay": 1.94,
-          "pay_krw": 2686,
-          "pay_str": "$1.94 (약 2,686원)",
-          "qty": 4.0
+          "symbol": "005930",
+          "name": "삼성전자",
+          "country": "KR",
+          "currency": "KRW",
+          "pay": 10830,
+          "pay_krw": 10830,
+          "pay_str": "10,830원",
+          "qty": 30.0
         }
       ]
     },
@@ -298,26 +298,6 @@
       "usd_total": 1.29,
       "krw_converted_total": 20371,
       "stocks": [
-        {
-          "symbol": "105560",
-          "name": "KB금융",
-          "country": "KR",
-          "currency": "KRW",
-          "pay": 7155,
-          "pay_krw": 7155,
-          "pay_str": "7,155원",
-          "qty": 9
-        },
-        {
-          "symbol": "005930",
-          "name": "삼성전자",
-          "country": "KR",
-          "currency": "KRW",
-          "pay": 10830,
-          "pay_krw": 10830,
-          "pay_str": "10,830원",
-          "qty": 30.0
-        },
         {
           "symbol": "000660",
           "name": "SK하이닉스",
@@ -329,6 +309,16 @@
           "qty": 2.0
         },
         {
+          "symbol": "105560",
+          "name": "KB금융",
+          "country": "KR",
+          "currency": "KRW",
+          "pay": 7155,
+          "pay_krw": 7155,
+          "pay_str": "7,155원",
+          "qty": 9
+        },
+        {
           "symbol": "SGOV",
           "name": "iShares 0-3 Month Treasury Bond ETF",
           "country": "US",
@@ -337,6 +327,16 @@
           "pay_krw": 1786,
           "pay_str": "$1.29 (약 1,786원)",
           "qty": 3.0
+        },
+        {
+          "symbol": "005930",
+          "name": "삼성전자",
+          "country": "KR",
+          "currency": "KRW",
+          "pay": 10830,
+          "pay_krw": 10830,
+          "pay_str": "10,830원",
+          "qty": 30.0
         }
       ]
     },
@@ -375,16 +375,6 @@
       "krw_converted_total": 4472,
       "stocks": [
         {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 1.29,
-          "pay_krw": 1786,
-          "pay_str": "$1.29 (약 1,786원)",
-          "qty": 3.0
-        },
-        {
           "symbol": "KO",
           "name": "코카콜라 (Coca-Cola)",
           "country": "US",
@@ -393,6 +383,16 @@
           "pay_krw": 2686,
           "pay_str": "$1.94 (약 2,686원)",
           "qty": 4.0
+        },
+        {
+          "symbol": "SGOV",
+          "name": "iShares 0-3 Month Treasury Bond ETF",
+          "country": "US",
+          "currency": "USD",
+          "pay": 1.29,
+          "pay_krw": 1786,
+          "pay_str": "$1.29 (약 1,786원)",
+          "qty": 3.0
         }
       ]
     },
@@ -403,26 +403,6 @@
       "krw_converted_total": 44371,
       "stocks": [
         {
-          "symbol": "105560",
-          "name": "KB금융",
-          "country": "KR",
-          "currency": "KRW",
-          "pay": 7155,
-          "pay_krw": 7155,
-          "pay_str": "7,155원",
-          "qty": 9
-        },
-        {
-          "symbol": "005930",
-          "name": "삼성전자",
-          "country": "KR",
-          "currency": "KRW",
-          "pay": 10830,
-          "pay_krw": 10830,
-          "pay_str": "10,830원",
-          "qty": 30.0
-        },
-        {
           "symbol": "000660",
           "name": "SK하이닉스",
           "country": "KR",
@@ -431,6 +411,16 @@
           "pay_krw": 600,
           "pay_str": "600원",
           "qty": 2.0
+        },
+        {
+          "symbol": "105560",
+          "name": "KB금융",
+          "country": "KR",
+          "currency": "KRW",
+          "pay": 7155,
+          "pay_krw": 7155,
+          "pay_str": "7,155원",
+          "qty": 9
         },
         {
           "symbol": "005380",
@@ -451,6 +441,16 @@
           "pay_krw": 1786,
           "pay_str": "$1.29 (약 1,786원)",
           "qty": 3.0
+        },
+        {
+          "symbol": "005930",
+          "name": "삼성전자",
+          "country": "KR",
+          "currency": "KRW",
+          "pay": 10830,
+          "pay_krw": 10830,
+          "pay_str": "10,830원",
+          "qty": 30.0
         }
       ]
     },
@@ -489,16 +489,6 @@
       "krw_converted_total": 4472,
       "stocks": [
         {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 1.29,
-          "pay_krw": 1786,
-          "pay_str": "$1.29 (약 1,786원)",
-          "qty": 3.0
-        },
-        {
           "symbol": "KO",
           "name": "코카콜라 (Coca-Cola)",
           "country": "US",
@@ -507,6 +497,16 @@
           "pay_krw": 2686,
           "pay_str": "$1.94 (약 2,686원)",
           "qty": 4.0
+        },
+        {
+          "symbol": "SGOV",
+          "name": "iShares 0-3 Month Treasury Bond ETF",
+          "country": "US",
+          "currency": "USD",
+          "pay": 1.29,
+          "pay_krw": 1786,
+          "pay_str": "$1.29 (약 1,786원)",
+          "qty": 3.0
         }
       ]
     },
@@ -517,26 +517,6 @@
       "krw_converted_total": 44371,
       "stocks": [
         {
-          "symbol": "105560",
-          "name": "KB금융",
-          "country": "KR",
-          "currency": "KRW",
-          "pay": 7155,
-          "pay_krw": 7155,
-          "pay_str": "7,155원",
-          "qty": 9
-        },
-        {
-          "symbol": "005930",
-          "name": "삼성전자",
-          "country": "KR",
-          "currency": "KRW",
-          "pay": 10830,
-          "pay_krw": 10830,
-          "pay_str": "10,830원",
-          "qty": 30.0
-        },
-        {
           "symbol": "000660",
           "name": "SK하이닉스",
           "country": "KR",
@@ -545,6 +525,16 @@
           "pay_krw": 600,
           "pay_str": "600원",
           "qty": 2.0
+        },
+        {
+          "symbol": "105560",
+          "name": "KB금융",
+          "country": "KR",
+          "currency": "KRW",
+          "pay": 7155,
+          "pay_krw": 7155,
+          "pay_str": "7,155원",
+          "qty": 9
         },
         {
           "symbol": "005380",
@@ -565,6 +555,16 @@
           "pay_krw": 1786,
           "pay_str": "$1.29 (약 1,786원)",
           "qty": 3.0
+        },
+        {
+          "symbol": "005930",
+          "name": "삼성전자",
+          "country": "KR",
+          "currency": "KRW",
+          "pay": 10830,
+          "pay_krw": 10830,
+          "pay_str": "10,830원",
+          "qty": 30.0
         }
       ]
     },
@@ -575,16 +575,6 @@
       "krw_converted_total": 8627,
       "stocks": [
         {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 1.29,
-          "pay_krw": 1786,
-          "pay_str": "$1.29 (약 1,786원)",
-          "qty": 3.0
-        },
-        {
           "symbol": "KO",
           "name": "코카콜라 (Coca-Cola)",
           "country": "US",
@@ -593,6 +583,16 @@
           "pay_krw": 2686,
           "pay_str": "$1.94 (약 2,686원)",
           "qty": 4.0
+        },
+        {
+          "symbol": "SGOV",
+          "name": "iShares 0-3 Month Treasury Bond ETF",
+          "country": "US",
+          "currency": "USD",
+          "pay": 1.29,
+          "pay_krw": 1786,
+          "pay_str": "$1.29 (약 1,786원)",
+          "qty": 3.0
         },
         {
           "symbol": "SCHD",
@@ -611,15 +611,6 @@
     {
       "month": 10,
       "month_label": "이번 달(10월)",
-      "symbol": "SGOV",
-      "name": "iShares 0-3 Month Treasury Bond ETF",
-      "country": "US",
-      "pay_str": "$1.29 (약 1,786원)",
-      "qty": 3.0
-    },
-    {
-      "month": 10,
-      "month_label": "이번 달(10월)",
       "symbol": "KO",
       "name": "코카콜라 (Coca-Cola)",
       "country": "US",
@@ -627,22 +618,13 @@
       "qty": 4.0
     },
     {
-      "month": 11,
-      "month_label": "11월 지급 예정",
-      "symbol": "105560",
-      "name": "KB금융",
-      "country": "KR",
-      "pay_str": "7,155원",
-      "qty": 9
-    },
-    {
-      "month": 11,
-      "month_label": "11월 지급 예정",
-      "symbol": "005930",
-      "name": "삼성전자",
-      "country": "KR",
-      "pay_str": "10,830원",
-      "qty": 30.0
+      "month": 10,
+      "month_label": "이번 달(10월)",
+      "symbol": "SGOV",
+      "name": "iShares 0-3 Month Treasury Bond ETF",
+      "country": "US",
+      "pay_str": "$1.29 (약 1,786원)",
+      "qty": 3.0
     },
     {
       "month": 11,
@@ -656,11 +638,29 @@
     {
       "month": 11,
       "month_label": "11월 지급 예정",
+      "symbol": "105560",
+      "name": "KB금융",
+      "country": "KR",
+      "pay_str": "7,155원",
+      "qty": 9
+    },
+    {
+      "month": 11,
+      "month_label": "11월 지급 예정",
       "symbol": "005380",
       "name": "현대차",
       "country": "KR",
       "pay_str": "24,000원",
       "qty": 6
+    },
+    {
+      "month": 11,
+      "month_label": "11월 지급 예정",
+      "symbol": "SGOV",
+      "name": "iShares 0-3 Month Treasury Bond ETF",
+      "country": "US",
+      "pay_str": "$1.29 (약 1,786원)",
+      "qty": 3.0
     }
   ]
 }
