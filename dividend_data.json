@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-26 14:30:11",
+  "updated_at": "2026-10-26 14:35:52",
   "usd_krw_rate": 1385.0,
-  "battery": "74% (⚡ DISCHARGING)",
-  "total_annual_krw": 165326,
+  "battery": "73% (⚡ DISCHARGING)",
+  "total_annual_krw": 153326,
   "total_annual_usd": 35.24,
-  "avg_monthly_krw": 13777,
+  "avg_monthly_krw": 12777,
   "fun_metrics": {
-    "chicken_annual": 7.2,
-    "coffee_monthly": 3
+    "chicken_annual": 6.7,
+    "coffee_monthly": 2
   },
   "item_count": 6,
   "items": [
@@ -56,17 +56,17 @@
       "name": "현대차",
       "country": "KR",
       "currency": "KRW",
-      "total_qty": 6,
-      "account_desc": "한투 6주",
+      "total_qty": 5,
+      "account_desc": "한투 5주",
       "freq_label": "분기배당 (4, 8, 11월 등)",
       "pay_months": [
         4,
         8,
         11
       ],
-      "annual_pay": 72000,
-      "annual_pay_krw": 72000,
-      "single_pay": 24000,
+      "annual_pay": 60000,
+      "annual_pay_krw": 60000,
+      "single_pay": 20000,
       "yield_pct": 5.85,
       "desc": "글로벌 톱3 완성차 & 고배당 대표주"
     },
@@ -206,9 +206,9 @@
     },
     {
       "month": 4,
-      "krw_total": 35130,
+      "krw_total": 31130,
       "usd_total": 3.23,
-      "krw_converted_total": 39602,
+      "krw_converted_total": 35602,
       "stocks": [
         {
           "symbol": "000660",
@@ -235,10 +235,10 @@
           "name": "현대차",
           "country": "KR",
           "currency": "KRW",
-          "pay": 24000,
-          "pay_krw": 24000,
-          "pay_str": "24,000원",
-          "qty": 6
+          "pay": 20000,
+          "pay_krw": 20000,
+          "pay_str": "20,000원",
+          "qty": 5
         },
         {
           "symbol": "SGOV",
@@ -358,9 +358,9 @@
     },
     {
       "month": 8,
-      "krw_total": 35130,
+      "krw_total": 31130,
       "usd_total": 1.29,
-      "krw_converted_total": 36916,
+      "krw_converted_total": 32916,
       "stocks": [
         {
           "symbol": "000660",
@@ -377,10 +377,10 @@
           "name": "현대차",
           "country": "KR",
           "currency": "KRW",
-          "pay": 24000,
-          "pay_krw": 24000,
-          "pay_str": "24,000원",
-          "qty": 6
+          "pay": 20000,
+          "pay_krw": 20000,
+          "pay_str": "20,000원",
+          "qty": 5
         },
         {
           "symbol": "SGOV",
@@ -462,9 +462,9 @@
     },
     {
       "month": 11,
-      "krw_total": 35130,
+      "krw_total": 31130,
       "usd_total": 1.29,
-      "krw_converted_total": 36916,
+      "krw_converted_total": 32916,
       "stocks": [
         {
           "symbol": "000660",
@@ -481,10 +481,10 @@
           "name": "현대차",
           "country": "KR",
           "currency": "KRW",
-          "pay": 24000,
-          "pay_krw": 24000,
-          "pay_str": "24,000원",
-          "qty": 6
+          "pay": 20000,
+          "pay_krw": 20000,
+          "pay_str": "20,000원",
+          "qty": 5
         },
         {
           "symbol": "SGOV",
@@ -581,8 +581,8 @@
       "symbol": "005380",
       "name": "현대차",
       "country": "KR",
-      "pay_str": "24,000원",
-      "qty": 6
+      "pay_str": "20,000원",
+      "qty": 5
     },
     {
       "month": 11,
