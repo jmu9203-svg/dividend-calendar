@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-26 11:50:28",
+  "updated_at": "2026-10-26 11:56:03",
   "usd_krw_rate": 1385.0,
   "battery": "79% (⚡ DISCHARGING)",
-  "total_annual_krw": 193946,
+  "total_annual_krw": 165326,
   "total_annual_usd": 35.24,
-  "avg_monthly_krw": 16162,
+  "avg_monthly_krw": 13777,
   "fun_metrics": {
-    "chicken_annual": 8.4,
+    "chicken_annual": 7.2,
     "coffee_monthly": 3
   },
-  "item_count": 7,
+  "item_count": 6,
   "items": [
     {
       "symbol": "000660",
@@ -50,26 +50,6 @@
       "single_pay": 1.94,
       "yield_pct": 3.12,
       "desc": "62년 연속 배당 인상 배당킹 (워런 버핏의 평생 보유주)"
-    },
-    {
-      "symbol": "105560",
-      "name": "KB금융",
-      "country": "KR",
-      "currency": "KRW",
-      "total_qty": 9,
-      "account_desc": "한투 9주",
-      "freq_label": "분기배당 (2, 5, 8, 11월)",
-      "pay_months": [
-        2,
-        5,
-        8,
-        11
-      ],
-      "annual_pay": 28620,
-      "annual_pay_krw": 28620,
-      "single_pay": 7155,
-      "yield_pct": 5.4,
-      "desc": "정부 밸류업 1위 & 주주환원율 최고 금융지주사"
     },
     {
       "symbol": "005380",
@@ -180,20 +160,10 @@
     },
     {
       "month": 2,
-      "krw_total": 7155,
+      "krw_total": 0,
       "usd_total": 1.29,
-      "krw_converted_total": 8941,
+      "krw_converted_total": 1786,
       "stocks": [
-        {
-          "symbol": "105560",
-          "name": "KB금융",
-          "country": "KR",
-          "currency": "KRW",
-          "pay": 7155,
-          "pay_krw": 7155,
-          "pay_str": "7,155원",
-          "qty": 9
-        },
         {
           "symbol": "SGOV",
           "name": "iShares 0-3 Month Treasury Bond ETF",
@@ -294,9 +264,9 @@
     },
     {
       "month": 5,
-      "krw_total": 18285,
+      "krw_total": 11130,
       "usd_total": 1.29,
-      "krw_converted_total": 20071,
+      "krw_converted_total": 12916,
       "stocks": [
         {
           "symbol": "000660",
@@ -307,16 +277,6 @@
           "pay_krw": 300,
           "pay_str": "300원",
           "qty": 1.0
-        },
-        {
-          "symbol": "105560",
-          "name": "KB금융",
-          "country": "KR",
-          "currency": "KRW",
-          "pay": 7155,
-          "pay_krw": 7155,
-          "pay_str": "7,155원",
-          "qty": 9
         },
         {
           "symbol": "SGOV",
@@ -398,9 +358,9 @@
     },
     {
       "month": 8,
-      "krw_total": 42285,
+      "krw_total": 35130,
       "usd_total": 1.29,
-      "krw_converted_total": 44071,
+      "krw_converted_total": 36916,
       "stocks": [
         {
           "symbol": "000660",
@@ -411,16 +371,6 @@
           "pay_krw": 300,
           "pay_str": "300원",
           "qty": 1.0
-        },
-        {
-          "symbol": "105560",
-          "name": "KB금융",
-          "country": "KR",
-          "currency": "KRW",
-          "pay": 7155,
-          "pay_krw": 7155,
-          "pay_str": "7,155원",
-          "qty": 9
         },
         {
           "symbol": "005380",
@@ -512,9 +462,9 @@
     },
     {
       "month": 11,
-      "krw_total": 42285,
+      "krw_total": 35130,
       "usd_total": 1.29,
-      "krw_converted_total": 44071,
+      "krw_converted_total": 36916,
       "stocks": [
         {
           "symbol": "000660",
@@ -525,16 +475,6 @@
           "pay_krw": 300,
           "pay_str": "300원",
           "qty": 1.0
-        },
-        {
-          "symbol": "105560",
-          "name": "KB금융",
-          "country": "KR",
-          "currency": "KRW",
-          "pay": 7155,
-          "pay_krw": 7155,
-          "pay_str": "7,155원",
-          "qty": 9
         },
         {
           "symbol": "005380",
@@ -638,15 +578,6 @@
     {
       "month": 11,
       "month_label": "11월 지급 예정",
-      "symbol": "105560",
-      "name": "KB금융",
-      "country": "KR",
-      "pay_str": "7,155원",
-      "qty": 9
-    },
-    {
-      "month": 11,
-      "month_label": "11월 지급 예정",
       "symbol": "005380",
       "name": "현대차",
       "country": "KR",
@@ -661,6 +592,15 @@
       "country": "US",
       "pay_str": "$1.29 (약 1,786원)",
       "qty": 3.0
+    },
+    {
+      "month": 11,
+      "month_label": "11월 지급 예정",
+      "symbol": "005930",
+      "name": "삼성전자",
+      "country": "KR",
+      "pay_str": "10,830원",
+      "qty": 30.0
     }
   ]
 }
