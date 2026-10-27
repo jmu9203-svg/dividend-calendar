@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-27 14:27:17",
+  "updated_at": "2026-10-27 14:33:17",
   "usd_krw_rate": 1385.0,
   "battery": "72% (⚡ DISCHARGING)",
-  "total_annual_krw": 167620,
+  "total_annual_krw": 164732,
   "total_annual_usd": 45.56,
-  "avg_monthly_krw": 13968,
+  "avg_monthly_krw": 13727,
   "fun_metrics": {
-    "chicken_annual": 7.3,
+    "chicken_annual": 7.2,
     "coffee_monthly": 3
   },
   "item_count": 6,
@@ -16,8 +16,8 @@
       "name": "삼성전자",
       "country": "KR",
       "currency": "KRW",
-      "total_qty": 30.0,
-      "account_desc": "토스 21주 + 한투 9주",
+      "total_qty": 28.0,
+      "account_desc": "토스 21주 + 한투 7주",
       "freq_label": "분기배당 (4, 5, 8, 11월)",
       "pay_months": [
         4,
@@ -25,9 +25,9 @@
         8,
         11
       ],
-      "annual_pay": 43320,
-      "annual_pay_krw": 43320,
-      "single_pay": 10830,
+      "annual_pay": 40432,
+      "annual_pay_krw": 40432,
+      "single_pay": 10108,
       "yield_pct": 2.5,
       "desc": "대한민국 1위 대장주 & 든든한 분기배당주"
     },
@@ -206,19 +206,19 @@
     },
     {
       "month": 4,
-      "krw_total": 31130,
+      "krw_total": 30408,
       "usd_total": 4.09,
-      "krw_converted_total": 36793,
+      "krw_converted_total": 36071,
       "stocks": [
         {
           "symbol": "005930",
           "name": "삼성전자",
           "country": "KR",
           "currency": "KRW",
-          "pay": 10830,
-          "pay_krw": 10830,
-          "pay_str": "10,830원",
-          "qty": 30.0
+          "pay": 10108,
+          "pay_krw": 10108,
+          "pay_str": "10,108원",
+          "qty": 28.0
         },
         {
           "symbol": "SGOV",
@@ -264,19 +264,19 @@
     },
     {
       "month": 5,
-      "krw_total": 11130,
+      "krw_total": 10408,
       "usd_total": 2.15,
-      "krw_converted_total": 14107,
+      "krw_converted_total": 13385,
       "stocks": [
         {
           "symbol": "005930",
           "name": "삼성전자",
           "country": "KR",
           "currency": "KRW",
-          "pay": 10830,
-          "pay_krw": 10830,
-          "pay_str": "10,830원",
-          "qty": 30.0
+          "pay": 10108,
+          "pay_krw": 10108,
+          "pay_str": "10,108원",
+          "qty": 28.0
         },
         {
           "symbol": "SGOV",
@@ -358,19 +358,19 @@
     },
     {
       "month": 8,
-      "krw_total": 31130,
+      "krw_total": 30408,
       "usd_total": 2.15,
-      "krw_converted_total": 34107,
+      "krw_converted_total": 33385,
       "stocks": [
         {
           "symbol": "005930",
           "name": "삼성전자",
           "country": "KR",
           "currency": "KRW",
-          "pay": 10830,
-          "pay_krw": 10830,
-          "pay_str": "10,830원",
-          "qty": 30.0
+          "pay": 10108,
+          "pay_krw": 10108,
+          "pay_str": "10,108원",
+          "qty": 28.0
         },
         {
           "symbol": "SGOV",
@@ -462,19 +462,19 @@
     },
     {
       "month": 11,
-      "krw_total": 31130,
+      "krw_total": 30408,
       "usd_total": 2.15,
-      "krw_converted_total": 34107,
+      "krw_converted_total": 33385,
       "stocks": [
         {
           "symbol": "005930",
           "name": "삼성전자",
           "country": "KR",
           "currency": "KRW",
-          "pay": 10830,
-          "pay_krw": 10830,
-          "pay_str": "10,830원",
-          "qty": 30.0
+          "pay": 10108,
+          "pay_krw": 10108,
+          "pay_str": "10,108원",
+          "qty": 28.0
         },
         {
           "symbol": "SGOV",
@@ -572,8 +572,8 @@
       "symbol": "005930",
       "name": "삼성전자",
       "country": "KR",
-      "pay_str": "10,830원",
-      "qty": 30.0
+      "pay_str": "10,108원",
+      "qty": 28.0
     },
     {
       "month": 11,
