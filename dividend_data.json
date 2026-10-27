@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-27 14:46:26",
+  "updated_at": "2026-10-27 14:52:34",
   "usd_krw_rate": 1385.0,
   "battery": "71% (⚡ DISCHARGING)",
-  "total_annual_krw": 164732,
+  "total_annual_krw": 104732,
   "total_annual_usd": 45.56,
-  "avg_monthly_krw": 13727,
+  "avg_monthly_krw": 8727,
   "fun_metrics": {
-    "chicken_annual": 7.2,
-    "coffee_monthly": 3
+    "chicken_annual": 4.6,
+    "coffee_monthly": 1
   },
-  "item_count": 6,
+  "item_count": 5,
   "items": [
     {
       "symbol": "005930",
@@ -58,25 +58,6 @@
       "single_pay": 2.15,
       "yield_pct": 5.14,
       "desc": "미국 초단기 국채 월배당 ETF (달러 안전 파킹 통장)"
-    },
-    {
-      "symbol": "005380",
-      "name": "현대차",
-      "country": "KR",
-      "currency": "KRW",
-      "total_qty": 5,
-      "account_desc": "한투 5주",
-      "freq_label": "분기배당 (4, 8, 11월 등)",
-      "pay_months": [
-        4,
-        8,
-        11
-      ],
-      "annual_pay": 60000,
-      "annual_pay_krw": 60000,
-      "single_pay": 20000,
-      "yield_pct": 5.85,
-      "desc": "글로벌 톱3 완성차 & 고배당 대표주"
     },
     {
       "symbol": "000660",
@@ -206,9 +187,9 @@
     },
     {
       "month": 4,
-      "krw_total": 30408,
+      "krw_total": 10408,
       "usd_total": 4.09,
-      "krw_converted_total": 36071,
+      "krw_converted_total": 16071,
       "stocks": [
         {
           "symbol": "005930",
@@ -229,16 +210,6 @@
           "pay_krw": 2977,
           "pay_str": "$2.15 (약 2,977원)",
           "qty": 5.0
-        },
-        {
-          "symbol": "005380",
-          "name": "현대차",
-          "country": "KR",
-          "currency": "KRW",
-          "pay": 20000,
-          "pay_krw": 20000,
-          "pay_str": "20,000원",
-          "qty": 5
         },
         {
           "symbol": "000660",
@@ -358,9 +329,9 @@
     },
     {
       "month": 8,
-      "krw_total": 30408,
+      "krw_total": 10408,
       "usd_total": 2.15,
-      "krw_converted_total": 33385,
+      "krw_converted_total": 13385,
       "stocks": [
         {
           "symbol": "005930",
@@ -381,16 +352,6 @@
           "pay_krw": 2977,
           "pay_str": "$2.15 (약 2,977원)",
           "qty": 5.0
-        },
-        {
-          "symbol": "005380",
-          "name": "현대차",
-          "country": "KR",
-          "currency": "KRW",
-          "pay": 20000,
-          "pay_krw": 20000,
-          "pay_str": "20,000원",
-          "qty": 5
         },
         {
           "symbol": "000660",
@@ -462,9 +423,9 @@
     },
     {
       "month": 11,
-      "krw_total": 30408,
+      "krw_total": 10408,
       "usd_total": 2.15,
-      "krw_converted_total": 33385,
+      "krw_converted_total": 13385,
       "stocks": [
         {
           "symbol": "005930",
@@ -485,16 +446,6 @@
           "pay_krw": 2977,
           "pay_str": "$2.15 (약 2,977원)",
           "qty": 5.0
-        },
-        {
-          "symbol": "005380",
-          "name": "현대차",
-          "country": "KR",
-          "currency": "KRW",
-          "pay": 20000,
-          "pay_krw": 20000,
-          "pay_str": "20,000원",
-          "qty": 5
         },
         {
           "symbol": "000660",
@@ -587,20 +538,20 @@
     {
       "month": 11,
       "month_label": "11월 지급 예정",
-      "symbol": "005380",
-      "name": "현대차",
-      "country": "KR",
-      "pay_str": "20,000원",
-      "qty": 5
-    },
-    {
-      "month": 11,
-      "month_label": "11월 지급 예정",
       "symbol": "000660",
       "name": "SK하이닉스",
       "country": "KR",
       "pay_str": "300원",
       "qty": 1.0
+    },
+    {
+      "month": 12,
+      "month_label": "12월 지급 예정",
+      "symbol": "SGOV",
+      "name": "iShares 0-3 Month Treasury Bond ETF",
+      "country": "US",
+      "pay_str": "$2.15 (약 2,977원)",
+      "qty": 5.0
     }
   ]
 }
