@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-27 11:30:09",
+  "updated_at": "2026-10-27 11:34:36",
   "usd_krw_rate": 1385.0,
   "battery": "78% (⚡ DISCHARGING)",
-  "total_annual_krw": 94624,
+  "total_annual_krw": 167620,
   "total_annual_usd": 45.56,
-  "avg_monthly_krw": 7885,
+  "avg_monthly_krw": 13968,
   "fun_metrics": {
-    "chicken_annual": 4.1,
-    "coffee_monthly": 1
+    "chicken_annual": 7.3,
+    "coffee_monthly": 3
   },
-  "item_count": 5,
+  "item_count": 6,
   "items": [
     {
       "symbol": "SGOV",
@@ -60,24 +60,23 @@
       "desc": "62년 연속 배당 인상 배당킹 (워런 버핏의 평생 보유주)"
     },
     {
-      "symbol": "005930",
-      "name": "삼성전자",
+      "symbol": "005380",
+      "name": "현대차",
       "country": "KR",
       "currency": "KRW",
-      "total_qty": 21.0,
-      "account_desc": "토스 21주",
-      "freq_label": "분기배당 (4, 5, 8, 11월)",
+      "total_qty": 5,
+      "account_desc": "한투 5주",
+      "freq_label": "분기배당 (4, 8, 11월 등)",
       "pay_months": [
         4,
-        5,
         8,
         11
       ],
-      "annual_pay": 30324,
-      "annual_pay_krw": 30324,
-      "single_pay": 7581,
-      "yield_pct": 2.5,
-      "desc": "대한민국 1위 대장주 & 든든한 분기배당주"
+      "annual_pay": 60000,
+      "annual_pay_krw": 60000,
+      "single_pay": 20000,
+      "yield_pct": 5.85,
+      "desc": "글로벌 톱3 완성차 & 고배당 대표주"
     },
     {
       "symbol": "SCHD",
@@ -98,6 +97,26 @@
       "single_pay": 3.0,
       "yield_pct": 3.45,
       "desc": "미국 100대 고배당 성장 ETF (10년 연속 배당성장)"
+    },
+    {
+      "symbol": "005930",
+      "name": "삼성전자",
+      "country": "KR",
+      "currency": "KRW",
+      "total_qty": 30.0,
+      "account_desc": "토스 21주 + 한투 9주",
+      "freq_label": "분기배당 (4, 5, 8, 11월)",
+      "pay_months": [
+        4,
+        5,
+        8,
+        11
+      ],
+      "annual_pay": 43320,
+      "annual_pay_krw": 43320,
+      "single_pay": 10830,
+      "yield_pct": 2.5,
+      "desc": "대한민국 1위 대장주 & 든든한 분기배당주"
     },
     {
       "symbol": "000660",
@@ -187,9 +206,9 @@
     },
     {
       "month": 4,
-      "krw_total": 7881,
+      "krw_total": 31130,
       "usd_total": 4.09,
-      "krw_converted_total": 13544,
+      "krw_converted_total": 36793,
       "stocks": [
         {
           "symbol": "SGOV",
@@ -212,14 +231,24 @@
           "qty": 4.0
         },
         {
+          "symbol": "005380",
+          "name": "현대차",
+          "country": "KR",
+          "currency": "KRW",
+          "pay": 20000,
+          "pay_krw": 20000,
+          "pay_str": "20,000원",
+          "qty": 5
+        },
+        {
           "symbol": "005930",
           "name": "삼성전자",
           "country": "KR",
           "currency": "KRW",
-          "pay": 7581,
-          "pay_krw": 7581,
-          "pay_str": "7,581원",
-          "qty": 21.0
+          "pay": 10830,
+          "pay_krw": 10830,
+          "pay_str": "10,830원",
+          "qty": 30.0
         },
         {
           "symbol": "000660",
@@ -235,9 +264,9 @@
     },
     {
       "month": 5,
-      "krw_total": 7881,
+      "krw_total": 11130,
       "usd_total": 2.15,
-      "krw_converted_total": 10858,
+      "krw_converted_total": 14107,
       "stocks": [
         {
           "symbol": "SGOV",
@@ -254,10 +283,10 @@
           "name": "삼성전자",
           "country": "KR",
           "currency": "KRW",
-          "pay": 7581,
-          "pay_krw": 7581,
-          "pay_str": "7,581원",
-          "qty": 21.0
+          "pay": 10830,
+          "pay_krw": 10830,
+          "pay_str": "10,830원",
+          "qty": 30.0
         },
         {
           "symbol": "000660",
@@ -329,9 +358,9 @@
     },
     {
       "month": 8,
-      "krw_total": 7881,
+      "krw_total": 31130,
       "usd_total": 2.15,
-      "krw_converted_total": 10858,
+      "krw_converted_total": 34107,
       "stocks": [
         {
           "symbol": "SGOV",
@@ -344,14 +373,24 @@
           "qty": 5.0
         },
         {
+          "symbol": "005380",
+          "name": "현대차",
+          "country": "KR",
+          "currency": "KRW",
+          "pay": 20000,
+          "pay_krw": 20000,
+          "pay_str": "20,000원",
+          "qty": 5
+        },
+        {
           "symbol": "005930",
           "name": "삼성전자",
           "country": "KR",
           "currency": "KRW",
-          "pay": 7581,
-          "pay_krw": 7581,
-          "pay_str": "7,581원",
-          "qty": 21.0
+          "pay": 10830,
+          "pay_krw": 10830,
+          "pay_str": "10,830원",
+          "qty": 30.0
         },
         {
           "symbol": "000660",
@@ -423,9 +462,9 @@
     },
     {
       "month": 11,
-      "krw_total": 7881,
+      "krw_total": 31130,
       "usd_total": 2.15,
-      "krw_converted_total": 10858,
+      "krw_converted_total": 34107,
       "stocks": [
         {
           "symbol": "SGOV",
@@ -438,14 +477,24 @@
           "qty": 5.0
         },
         {
+          "symbol": "005380",
+          "name": "현대차",
+          "country": "KR",
+          "currency": "KRW",
+          "pay": 20000,
+          "pay_krw": 20000,
+          "pay_str": "20,000원",
+          "qty": 5
+        },
+        {
           "symbol": "005930",
           "name": "삼성전자",
           "country": "KR",
           "currency": "KRW",
-          "pay": 7581,
-          "pay_krw": 7581,
-          "pay_str": "7,581원",
-          "qty": 21.0
+          "pay": 10830,
+          "pay_krw": 10830,
+          "pay_str": "10,830원",
+          "qty": 30.0
         },
         {
           "symbol": "000660",
@@ -529,11 +578,20 @@
     {
       "month": 11,
       "month_label": "11월 지급 예정",
+      "symbol": "005380",
+      "name": "현대차",
+      "country": "KR",
+      "pay_str": "20,000원",
+      "qty": 5
+    },
+    {
+      "month": 11,
+      "month_label": "11월 지급 예정",
       "symbol": "005930",
       "name": "삼성전자",
       "country": "KR",
-      "pay_str": "7,581원",
-      "qty": 21.0
+      "pay_str": "10,830원",
+      "qty": 30.0
     },
     {
       "month": 11,
@@ -543,15 +601,6 @@
       "country": "KR",
       "pay_str": "300원",
       "qty": 1.0
-    },
-    {
-      "month": 12,
-      "month_label": "12월 지급 예정",
-      "symbol": "SGOV",
-      "name": "iShares 0-3 Month Treasury Bond ETF",
-      "country": "US",
-      "pay_str": "$2.15 (약 2,977원)",
-      "qty": 5.0
     }
   ]
 }
