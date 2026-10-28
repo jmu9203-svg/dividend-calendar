@@ -1,36 +1,16 @@
 {
-  "updated_at": "2026-10-28 14:11:19",
+  "updated_at": "2026-10-28 14:12:25",
   "usd_krw_rate": 1385.0,
-  "battery": "74% (⚡ DISCHARGING)",
-  "total_annual_krw": 103288,
+  "battery": "100% (⚡ 완충됨)",
+  "total_annual_krw": 120668,
   "total_annual_usd": 45.56,
-  "avg_monthly_krw": 8607,
+  "avg_monthly_krw": 10055,
   "fun_metrics": {
-    "chicken_annual": 4.5,
-    "coffee_monthly": 1
+    "chicken_annual": 5.2,
+    "coffee_monthly": 2
   },
-  "item_count": 5,
+  "item_count": 8,
   "items": [
-    {
-      "symbol": "SCHD",
-      "name": "Schwab U.S. Dividend Equity ETF",
-      "country": "US",
-      "currency": "USD",
-      "total_qty": 4.0,
-      "account_desc": "토스 4주",
-      "freq_label": "분기배당 (3, 6, 9, 12월)",
-      "pay_months": [
-        3,
-        6,
-        9,
-        12
-      ],
-      "annual_pay": 12.0,
-      "annual_pay_krw": 16620,
-      "single_pay": 3.0,
-      "yield_pct": 3.45,
-      "desc": "미국 100대 고배당 성장 ETF (10년 연속 배당성장)"
-    },
     {
       "symbol": "SGOV",
       "name": "iShares 0-3 Month Treasury Bond ETF",
@@ -60,6 +40,80 @@
       "desc": "미국 초단기 국채 월배당 ETF (달러 안전 파킹 통장)"
     },
     {
+      "symbol": "005930",
+      "name": "삼성전자",
+      "country": "KR",
+      "currency": "KRW",
+      "total_qty": 27.0,
+      "account_desc": "토스 21주 + 한투 6주",
+      "freq_label": "분기배당 (4, 5, 8, 11월)",
+      "pay_months": [
+        4,
+        5,
+        8,
+        11
+      ],
+      "annual_pay": 38988,
+      "annual_pay_krw": 38988,
+      "single_pay": 9747,
+      "yield_pct": 2.5,
+      "desc": "대한민국 1위 대장주 & 든든한 분기배당주"
+    },
+    {
+      "symbol": "SCHD",
+      "name": "Schwab U.S. Dividend Equity ETF",
+      "country": "US",
+      "currency": "USD",
+      "total_qty": 4.0,
+      "account_desc": "토스 4주",
+      "freq_label": "분기배당 (3, 6, 9, 12월)",
+      "pay_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "annual_pay": 12.0,
+      "annual_pay_krw": 16620,
+      "single_pay": 3.0,
+      "yield_pct": 3.45,
+      "desc": "미국 100대 고배당 성장 ETF (10년 연속 배당성장)"
+    },
+    {
+      "symbol": "267260",
+      "name": "HD현대일렉트릭",
+      "country": "KR",
+      "currency": "KRW",
+      "total_qty": 5,
+      "account_desc": "한투 5주",
+      "freq_label": "결산배당 (4월)",
+      "pay_months": [
+        4
+      ],
+      "annual_pay": 5500,
+      "annual_pay_krw": 5500,
+      "single_pay": 5500,
+      "yield_pct": 0.35,
+      "desc": "글로벌 AI 전력인프라 슈퍼사이클 주도주"
+    },
+    {
+      "symbol": "138040",
+      "name": "메리츠금융지주",
+      "country": "KR",
+      "currency": "KRW",
+      "total_qty": 1.0,
+      "account_desc": "토스 1주",
+      "freq_label": "결산배당 (4월)",
+      "pay_months": [
+        4
+      ],
+      "annual_pay": 2360,
+      "annual_pay_krw": 2360,
+      "single_pay": 2360,
+      "yield_pct": 1.95,
+      "desc": "국내 최고 주주환원율(50%↑) 밸류업 대장주"
+    },
+    {
       "symbol": "000660",
       "name": "SK하이닉스",
       "country": "KR",
@@ -80,6 +134,23 @@
       "desc": "HBM 글로벌 1위 반도체 성장주"
     },
     {
+      "symbol": "035420",
+      "name": "NAVER",
+      "country": "KR",
+      "currency": "KRW",
+      "total_qty": 8,
+      "account_desc": "한투 8주",
+      "freq_label": "결산배당 (4월)",
+      "pay_months": [
+        4
+      ],
+      "annual_pay": 9520,
+      "annual_pay_krw": 9520,
+      "single_pay": 9520,
+      "yield_pct": 0.68,
+      "desc": "대한민국 1위 포털 & AI 플랫폼"
+    },
+    {
       "symbol": "KO",
       "name": "코카콜라 (Coca-Cola)",
       "country": "US",
@@ -98,26 +169,6 @@
       "single_pay": 1.94,
       "yield_pct": 3.12,
       "desc": "62년 연속 배당 인상 배당킹 (워런 버핏의 평생 보유주)"
-    },
-    {
-      "symbol": "005930",
-      "name": "삼성전자",
-      "country": "KR",
-      "currency": "KRW",
-      "total_qty": 27.0,
-      "account_desc": "토스 21주 + 한투 6주",
-      "freq_label": "분기배당 (4, 5, 8, 11월)",
-      "pay_months": [
-        4,
-        5,
-        8,
-        11
-      ],
-      "annual_pay": 38988,
-      "annual_pay_krw": 38988,
-      "single_pay": 9747,
-      "yield_pct": 2.5,
-      "desc": "대한민국 1위 대장주 & 든든한 분기배당주"
     }
   ],
   "monthly_calendar": [
@@ -164,16 +215,6 @@
       "krw_converted_total": 7132,
       "stocks": [
         {
-          "symbol": "SCHD",
-          "name": "Schwab U.S. Dividend Equity ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 3.0,
-          "pay_krw": 4155,
-          "pay_str": "$3.00 (약 4,155원)",
-          "qty": 4.0
-        },
-        {
           "symbol": "SGOV",
           "name": "iShares 0-3 Month Treasury Bond ETF",
           "country": "US",
@@ -182,14 +223,24 @@
           "pay_krw": 2977,
           "pay_str": "$2.15 (약 2,977원)",
           "qty": 5.0
+        },
+        {
+          "symbol": "SCHD",
+          "name": "Schwab U.S. Dividend Equity ETF",
+          "country": "US",
+          "currency": "USD",
+          "pay": 3.0,
+          "pay_krw": 4155,
+          "pay_str": "$3.00 (약 4,155원)",
+          "qty": 4.0
         }
       ]
     },
     {
       "month": 4,
-      "krw_total": 10047,
+      "krw_total": 27427,
       "usd_total": 4.09,
-      "krw_converted_total": 15710,
+      "krw_converted_total": 33090,
       "stocks": [
         {
           "symbol": "SGOV",
@@ -202,6 +253,36 @@
           "qty": 5.0
         },
         {
+          "symbol": "005930",
+          "name": "삼성전자",
+          "country": "KR",
+          "currency": "KRW",
+          "pay": 9747,
+          "pay_krw": 9747,
+          "pay_str": "9,747원",
+          "qty": 27.0
+        },
+        {
+          "symbol": "267260",
+          "name": "HD현대일렉트릭",
+          "country": "KR",
+          "currency": "KRW",
+          "pay": 5500,
+          "pay_krw": 5500,
+          "pay_str": "5,500원",
+          "qty": 5
+        },
+        {
+          "symbol": "138040",
+          "name": "메리츠금융지주",
+          "country": "KR",
+          "currency": "KRW",
+          "pay": 2360,
+          "pay_krw": 2360,
+          "pay_str": "2,360원",
+          "qty": 1.0
+        },
+        {
           "symbol": "000660",
           "name": "SK하이닉스",
           "country": "KR",
@@ -212,6 +293,16 @@
           "qty": 1.0
         },
         {
+          "symbol": "035420",
+          "name": "NAVER",
+          "country": "KR",
+          "currency": "KRW",
+          "pay": 9520,
+          "pay_krw": 9520,
+          "pay_str": "9,520원",
+          "qty": 8
+        },
+        {
           "symbol": "KO",
           "name": "코카콜라 (Coca-Cola)",
           "country": "US",
@@ -220,16 +311,6 @@
           "pay_krw": 2686,
           "pay_str": "$1.94 (약 2,686원)",
           "qty": 4.0
-        },
-        {
-          "symbol": "005930",
-          "name": "삼성전자",
-          "country": "KR",
-          "currency": "KRW",
-          "pay": 9747,
-          "pay_krw": 9747,
-          "pay_str": "9,747원",
-          "qty": 27.0
         }
       ]
     },
@@ -250,16 +331,6 @@
           "qty": 5.0
         },
         {
-          "symbol": "000660",
-          "name": "SK하이닉스",
-          "country": "KR",
-          "currency": "KRW",
-          "pay": 300,
-          "pay_krw": 300,
-          "pay_str": "300원",
-          "qty": 1.0
-        },
-        {
           "symbol": "005930",
           "name": "삼성전자",
           "country": "KR",
@@ -268,6 +339,16 @@
           "pay_krw": 9747,
           "pay_str": "9,747원",
           "qty": 27.0
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스",
+          "country": "KR",
+          "currency": "KRW",
+          "pay": 300,
+          "pay_krw": 300,
+          "pay_str": "300원",
+          "qty": 1.0
         }
       ]
     },
@@ -278,16 +359,6 @@
       "krw_converted_total": 7132,
       "stocks": [
         {
-          "symbol": "SCHD",
-          "name": "Schwab U.S. Dividend Equity ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 3.0,
-          "pay_krw": 4155,
-          "pay_str": "$3.00 (약 4,155원)",
-          "qty": 4.0
-        },
-        {
           "symbol": "SGOV",
           "name": "iShares 0-3 Month Treasury Bond ETF",
           "country": "US",
@@ -296,6 +367,16 @@
           "pay_krw": 2977,
           "pay_str": "$2.15 (약 2,977원)",
           "qty": 5.0
+        },
+        {
+          "symbol": "SCHD",
+          "name": "Schwab U.S. Dividend Equity ETF",
+          "country": "US",
+          "currency": "USD",
+          "pay": 3.0,
+          "pay_krw": 4155,
+          "pay_str": "$3.00 (약 4,155원)",
+          "qty": 4.0
         }
       ]
     },
@@ -344,16 +425,6 @@
           "qty": 5.0
         },
         {
-          "symbol": "000660",
-          "name": "SK하이닉스",
-          "country": "KR",
-          "currency": "KRW",
-          "pay": 300,
-          "pay_krw": 300,
-          "pay_str": "300원",
-          "qty": 1.0
-        },
-        {
           "symbol": "005930",
           "name": "삼성전자",
           "country": "KR",
@@ -362,6 +433,16 @@
           "pay_krw": 9747,
           "pay_str": "9,747원",
           "qty": 27.0
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스",
+          "country": "KR",
+          "currency": "KRW",
+          "pay": 300,
+          "pay_krw": 300,
+          "pay_str": "300원",
+          "qty": 1.0
         }
       ]
     },
@@ -372,16 +453,6 @@
       "krw_converted_total": 7132,
       "stocks": [
         {
-          "symbol": "SCHD",
-          "name": "Schwab U.S. Dividend Equity ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 3.0,
-          "pay_krw": 4155,
-          "pay_str": "$3.00 (약 4,155원)",
-          "qty": 4.0
-        },
-        {
           "symbol": "SGOV",
           "name": "iShares 0-3 Month Treasury Bond ETF",
           "country": "US",
@@ -390,6 +461,16 @@
           "pay_krw": 2977,
           "pay_str": "$2.15 (약 2,977원)",
           "qty": 5.0
+        },
+        {
+          "symbol": "SCHD",
+          "name": "Schwab U.S. Dividend Equity ETF",
+          "country": "US",
+          "currency": "USD",
+          "pay": 3.0,
+          "pay_krw": 4155,
+          "pay_str": "$3.00 (약 4,155원)",
+          "qty": 4.0
         }
       ]
     },
@@ -438,16 +519,6 @@
           "qty": 5.0
         },
         {
-          "symbol": "000660",
-          "name": "SK하이닉스",
-          "country": "KR",
-          "currency": "KRW",
-          "pay": 300,
-          "pay_krw": 300,
-          "pay_str": "300원",
-          "qty": 1.0
-        },
-        {
           "symbol": "005930",
           "name": "삼성전자",
           "country": "KR",
@@ -456,6 +527,16 @@
           "pay_krw": 9747,
           "pay_str": "9,747원",
           "qty": 27.0
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스",
+          "country": "KR",
+          "currency": "KRW",
+          "pay": 300,
+          "pay_krw": 300,
+          "pay_str": "300원",
+          "qty": 1.0
         }
       ]
     },
@@ -466,16 +547,6 @@
       "krw_converted_total": 9818,
       "stocks": [
         {
-          "symbol": "SCHD",
-          "name": "Schwab U.S. Dividend Equity ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 3.0,
-          "pay_krw": 4155,
-          "pay_str": "$3.00 (약 4,155원)",
-          "qty": 4.0
-        },
-        {
           "symbol": "SGOV",
           "name": "iShares 0-3 Month Treasury Bond ETF",
           "country": "US",
@@ -484,6 +555,16 @@
           "pay_krw": 2977,
           "pay_str": "$2.15 (약 2,977원)",
           "qty": 5.0
+        },
+        {
+          "symbol": "SCHD",
+          "name": "Schwab U.S. Dividend Equity ETF",
+          "country": "US",
+          "currency": "USD",
+          "pay": 3.0,
+          "pay_krw": 4155,
+          "pay_str": "$3.00 (약 4,155원)",
+          "qty": 4.0
         },
         {
           "symbol": "KO",
@@ -529,15 +610,6 @@
     {
       "month": 11,
       "month_label": "11월 지급 예정",
-      "symbol": "000660",
-      "name": "SK하이닉스",
-      "country": "KR",
-      "pay_str": "300원",
-      "qty": 1.0
-    },
-    {
-      "month": 11,
-      "month_label": "11월 지급 예정",
       "symbol": "005930",
       "name": "삼성전자",
       "country": "KR",
@@ -545,13 +617,22 @@
       "qty": 27.0
     },
     {
+      "month": 11,
+      "month_label": "11월 지급 예정",
+      "symbol": "000660",
+      "name": "SK하이닉스",
+      "country": "KR",
+      "pay_str": "300원",
+      "qty": 1.0
+    },
+    {
       "month": 12,
       "month_label": "12월 지급 예정",
-      "symbol": "SCHD",
-      "name": "Schwab U.S. Dividend Equity ETF",
+      "symbol": "SGOV",
+      "name": "iShares 0-3 Month Treasury Bond ETF",
       "country": "US",
-      "pay_str": "$3.00 (약 4,155원)",
-      "qty": 4.0
+      "pay_str": "$2.15 (약 2,977원)",
+      "qty": 5.0
     }
   ]
 }
