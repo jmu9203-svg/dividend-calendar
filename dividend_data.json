@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28 12:54:00",
+  "updated_at": "2026-10-28 12:58:49",
   "usd_krw_rate": 1385.0,
   "battery": "77% (⚡ DISCHARGING)",
   "total_annual_krw": 103288,
@@ -11,34 +11,6 @@
   },
   "item_count": 5,
   "items": [
-    {
-      "symbol": "SGOV",
-      "name": "iShares 0-3 Month Treasury Bond ETF",
-      "country": "US",
-      "currency": "USD",
-      "total_qty": 5.0,
-      "account_desc": "토스 5주",
-      "freq_label": "월배당 (1~12월 매월 초)",
-      "pay_months": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12
-      ],
-      "annual_pay": 25.8,
-      "annual_pay_krw": 35733,
-      "single_pay": 2.15,
-      "yield_pct": 5.14,
-      "desc": "미국 초단기 국채 월배당 ETF (달러 안전 파킹 통장)"
-    },
     {
       "symbol": "005930",
       "name": "삼성전자",
@@ -78,6 +50,34 @@
       "single_pay": 300,
       "yield_pct": 0.85,
       "desc": "HBM 글로벌 1위 반도체 성장주"
+    },
+    {
+      "symbol": "SGOV",
+      "name": "iShares 0-3 Month Treasury Bond ETF",
+      "country": "US",
+      "currency": "USD",
+      "total_qty": 5.0,
+      "account_desc": "토스 5주",
+      "freq_label": "월배당 (1~12월 매월 초)",
+      "pay_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "annual_pay": 25.8,
+      "annual_pay_krw": 35733,
+      "single_pay": 2.15,
+      "yield_pct": 5.14,
+      "desc": "미국 초단기 국채 월배당 ETF (달러 안전 파킹 통장)"
     },
     {
       "symbol": "KO",
@@ -192,16 +192,6 @@
       "krw_converted_total": 15710,
       "stocks": [
         {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
-          "qty": 5.0
-        },
-        {
           "symbol": "005930",
           "name": "삼성전자",
           "country": "KR",
@@ -220,6 +210,16 @@
           "pay_krw": 300,
           "pay_str": "300원",
           "qty": 1.0
+        },
+        {
+          "symbol": "SGOV",
+          "name": "iShares 0-3 Month Treasury Bond ETF",
+          "country": "US",
+          "currency": "USD",
+          "pay": 2.15,
+          "pay_krw": 2977,
+          "pay_str": "$2.15 (약 2,977원)",
+          "qty": 5.0
         },
         {
           "symbol": "KO",
@@ -240,16 +240,6 @@
       "krw_converted_total": 13024,
       "stocks": [
         {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
-          "qty": 5.0
-        },
-        {
           "symbol": "005930",
           "name": "삼성전자",
           "country": "KR",
@@ -268,6 +258,16 @@
           "pay_krw": 300,
           "pay_str": "300원",
           "qty": 1.0
+        },
+        {
+          "symbol": "SGOV",
+          "name": "iShares 0-3 Month Treasury Bond ETF",
+          "country": "US",
+          "currency": "USD",
+          "pay": 2.15,
+          "pay_krw": 2977,
+          "pay_str": "$2.15 (약 2,977원)",
+          "qty": 5.0
         }
       ]
     },
@@ -334,16 +334,6 @@
       "krw_converted_total": 13024,
       "stocks": [
         {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
-          "qty": 5.0
-        },
-        {
           "symbol": "005930",
           "name": "삼성전자",
           "country": "KR",
@@ -362,6 +352,16 @@
           "pay_krw": 300,
           "pay_str": "300원",
           "qty": 1.0
+        },
+        {
+          "symbol": "SGOV",
+          "name": "iShares 0-3 Month Treasury Bond ETF",
+          "country": "US",
+          "currency": "USD",
+          "pay": 2.15,
+          "pay_krw": 2977,
+          "pay_str": "$2.15 (약 2,977원)",
+          "qty": 5.0
         }
       ]
     },
@@ -428,16 +428,6 @@
       "krw_converted_total": 13024,
       "stocks": [
         {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
-          "qty": 5.0
-        },
-        {
           "symbol": "005930",
           "name": "삼성전자",
           "country": "KR",
@@ -456,6 +446,16 @@
           "pay_krw": 300,
           "pay_str": "300원",
           "qty": 1.0
+        },
+        {
+          "symbol": "SGOV",
+          "name": "iShares 0-3 Month Treasury Bond ETF",
+          "country": "US",
+          "currency": "USD",
+          "pay": 2.15,
+          "pay_krw": 2977,
+          "pay_str": "$2.15 (약 2,977원)",
+          "qty": 5.0
         }
       ]
     },
@@ -520,15 +520,6 @@
     {
       "month": 11,
       "month_label": "11월 지급 예정",
-      "symbol": "SGOV",
-      "name": "iShares 0-3 Month Treasury Bond ETF",
-      "country": "US",
-      "pay_str": "$2.15 (약 2,977원)",
-      "qty": 5.0
-    },
-    {
-      "month": 11,
-      "month_label": "11월 지급 예정",
       "symbol": "005930",
       "name": "삼성전자",
       "country": "KR",
@@ -543,6 +534,15 @@
       "country": "KR",
       "pay_str": "300원",
       "qty": 1.0
+    },
+    {
+      "month": 11,
+      "month_label": "11월 지급 예정",
+      "symbol": "SGOV",
+      "name": "iShares 0-3 Month Treasury Bond ETF",
+      "country": "US",
+      "pay_str": "$2.15 (약 2,977원)",
+      "qty": 5.0
     },
     {
       "month": 12,
