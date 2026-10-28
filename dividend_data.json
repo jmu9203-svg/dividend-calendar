@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-28 10:40:06",
+  "updated_at": "2026-10-28 10:42:56",
   "usd_krw_rate": 1385.0,
-  "battery": "82% (⚡ DISCHARGING)",
+  "battery": "81% (⚡ DISCHARGING)",
   "total_annual_krw": 103288,
   "total_annual_usd": 45.56,
   "avg_monthly_krw": 8607,
@@ -32,6 +32,26 @@
       "desc": "대한민국 1위 대장주 & 든든한 분기배당주"
     },
     {
+      "symbol": "000660",
+      "name": "SK하이닉스",
+      "country": "KR",
+      "currency": "KRW",
+      "total_qty": 1.0,
+      "account_desc": "토스 1주",
+      "freq_label": "분기배당 (4, 5, 8, 11월)",
+      "pay_months": [
+        4,
+        5,
+        8,
+        11
+      ],
+      "annual_pay": 1200,
+      "annual_pay_krw": 1200,
+      "single_pay": 300,
+      "yield_pct": 0.85,
+      "desc": "HBM 글로벌 1위 반도체 성장주"
+    },
+    {
       "symbol": "SGOV",
       "name": "iShares 0-3 Month Treasury Bond ETF",
       "country": "US",
@@ -58,26 +78,6 @@
       "single_pay": 2.15,
       "yield_pct": 5.14,
       "desc": "미국 초단기 국채 월배당 ETF (달러 안전 파킹 통장)"
-    },
-    {
-      "symbol": "000660",
-      "name": "SK하이닉스",
-      "country": "KR",
-      "currency": "KRW",
-      "total_qty": 1.0,
-      "account_desc": "토스 1주",
-      "freq_label": "분기배당 (4, 5, 8, 11월)",
-      "pay_months": [
-        4,
-        5,
-        8,
-        11
-      ],
-      "annual_pay": 1200,
-      "annual_pay_krw": 1200,
-      "single_pay": 300,
-      "yield_pct": 0.85,
-      "desc": "HBM 글로벌 1위 반도체 성장주"
     },
     {
       "symbol": "SCHD",
@@ -202,16 +202,6 @@
           "qty": 27.0
         },
         {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
-          "qty": 5.0
-        },
-        {
           "symbol": "000660",
           "name": "SK하이닉스",
           "country": "KR",
@@ -220,6 +210,16 @@
           "pay_krw": 300,
           "pay_str": "300원",
           "qty": 1.0
+        },
+        {
+          "symbol": "SGOV",
+          "name": "iShares 0-3 Month Treasury Bond ETF",
+          "country": "US",
+          "currency": "USD",
+          "pay": 2.15,
+          "pay_krw": 2977,
+          "pay_str": "$2.15 (약 2,977원)",
+          "qty": 5.0
         },
         {
           "symbol": "KO",
@@ -250,16 +250,6 @@
           "qty": 27.0
         },
         {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
-          "qty": 5.0
-        },
-        {
           "symbol": "000660",
           "name": "SK하이닉스",
           "country": "KR",
@@ -268,6 +258,16 @@
           "pay_krw": 300,
           "pay_str": "300원",
           "qty": 1.0
+        },
+        {
+          "symbol": "SGOV",
+          "name": "iShares 0-3 Month Treasury Bond ETF",
+          "country": "US",
+          "currency": "USD",
+          "pay": 2.15,
+          "pay_krw": 2977,
+          "pay_str": "$2.15 (약 2,977원)",
+          "qty": 5.0
         }
       ]
     },
@@ -344,16 +344,6 @@
           "qty": 27.0
         },
         {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
-          "qty": 5.0
-        },
-        {
           "symbol": "000660",
           "name": "SK하이닉스",
           "country": "KR",
@@ -362,6 +352,16 @@
           "pay_krw": 300,
           "pay_str": "300원",
           "qty": 1.0
+        },
+        {
+          "symbol": "SGOV",
+          "name": "iShares 0-3 Month Treasury Bond ETF",
+          "country": "US",
+          "currency": "USD",
+          "pay": 2.15,
+          "pay_krw": 2977,
+          "pay_str": "$2.15 (약 2,977원)",
+          "qty": 5.0
         }
       ]
     },
@@ -438,16 +438,6 @@
           "qty": 27.0
         },
         {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
-          "qty": 5.0
-        },
-        {
           "symbol": "000660",
           "name": "SK하이닉스",
           "country": "KR",
@@ -456,6 +446,16 @@
           "pay_krw": 300,
           "pay_str": "300원",
           "qty": 1.0
+        },
+        {
+          "symbol": "SGOV",
+          "name": "iShares 0-3 Month Treasury Bond ETF",
+          "country": "US",
+          "currency": "USD",
+          "pay": 2.15,
+          "pay_krw": 2977,
+          "pay_str": "$2.15 (약 2,977원)",
+          "qty": 5.0
         }
       ]
     },
@@ -529,20 +529,20 @@
     {
       "month": 11,
       "month_label": "11월 지급 예정",
-      "symbol": "SGOV",
-      "name": "iShares 0-3 Month Treasury Bond ETF",
-      "country": "US",
-      "pay_str": "$2.15 (약 2,977원)",
-      "qty": 5.0
-    },
-    {
-      "month": 11,
-      "month_label": "11월 지급 예정",
       "symbol": "000660",
       "name": "SK하이닉스",
       "country": "KR",
       "pay_str": "300원",
       "qty": 1.0
+    },
+    {
+      "month": 11,
+      "month_label": "11월 지급 예정",
+      "symbol": "SGOV",
+      "name": "iShares 0-3 Month Treasury Bond ETF",
+      "country": "US",
+      "pay_str": "$2.15 (약 2,977원)",
+      "qty": 5.0
     },
     {
       "month": 12,
