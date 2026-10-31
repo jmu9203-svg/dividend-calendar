@@ -143,7 +143,7 @@
   <div class="header">
     <div class="title-group">
       <h1>내 배당금 캘린더 <span class="div-tag">Dividend</span></h1>
-      <p>토스 &amp; 한투 통합 실시간 배당금 파이프라인</p>
+      <p>토스증권 실전 계좌 100% 기준 실시간 배당금 파이프라인</p>
     </div>
     <div style="display:flex; gap:6px; align-items:center;">
       <div class="status-badge" style="color:var(--text-sub);">
@@ -151,21 +151,21 @@
       </div>
       <div class="status-badge">
         <div class="pulse-dot"></div>
-        <span>통합 배당</span>
+        <span>토스 실전 배당</span>
       </div>
     </div>
   </div>
 
   <!-- Live Sync Banner -->
   <div id="watchdogBanner" style="background: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 12px; padding: 10px 14px; margin-bottom: 16px; font-size: 12px; display: flex; justify-content: space-between; align-items: center;">
-    <span id="watchdogStatusText">🟡 <b>배당 파이프라인 정상 가동 중</b> — 한투·토스 실전 수량 실시간 연동</span>
+    <span id="watchdogStatusText">🟡 <b>배당 파이프라인 정상 가동 중</b> — 토스 실전 계좌 보유 수량 100% 실시간 연동</span>
     <span id="watchdogSyncAge" style="color: var(--text-sub); font-weight: 600;">방금 동기화</span>
   </div>
 
   <!-- Annual Summary Card -->
   <div class="summary-card">
     <div class="summary-title">
-      <span>연간 예상 총 배당금 (토스 + 한투 통합)</span>
+      <span>토스 실전 계좌 연간 예상 총 배당금</span>
       <span id="rateInfo">환율: 1,385원 기준</span>
     </div>
     <div class="total-div" id="totalAnnualKrw">--원</div>
@@ -268,7 +268,7 @@
   <div class="footer">
     <div id="lastUpdated">최근 업데이트: 조회 중...</div>
     <div class="footer-detail">
-      <span>통합 자산: 토스 실전계좌 + 한투 500만 펀드</span>
+      <span>기준 계좌: 토스증권 실전 계좌 (국내 + 미국 배당 자산 100%)</span>
       <span>•</span>
       <span>자동 새로고침: 15초</span>
     </div>
@@ -445,7 +445,7 @@
       document.getElementById('simYearsLabel').textContent = years + '년';
       document.getElementById('simMonthlyLabel').textContent = (monthly / 10000).toLocaleString() + '만 원';
 
-      let currentAsset = 15000000; // 초기 원금 약 1500만 원 가정 (한투 + 토스 통합 평가액)
+      let currentAsset = 9500000; // 토스 실전 계좌 총 평가액 기준
       const r = 0.07; // 연 7% 수익률 가정
       const divYield = 0.04; // 평균 배당률 4%
 
