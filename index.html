@@ -152,7 +152,7 @@
   <div class="header">
     <div class="title-group">
       <h1>내 배당금 캘린더 <span class="div-tag">Dividend</span></h1>
-      <p>토스증권 실전 계좌 100% 기준 실시간 배당금 파이프라인</p>
+      <p>한투 &amp; 토스 실전 계좌 100% 연동 실시간 배당금 파이프라인</p>
     </div>
     <div style="display:flex; gap:6px; align-items:center;">
       <div class="status-badge" style="background: var(--pill-bg); border: 1px solid var(--card-border); color: var(--text-main);">
@@ -167,15 +167,15 @@
 
   <!-- Live Sync Banner -->
   <div id="watchdogBanner" style="background: rgba(245, 158, 11, 0.10); border: 1px solid rgba(245, 158, 11, 0.30); border-radius: 12px; padding: 10px 14px; margin-bottom: 16px; font-size: 12px; display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap;">
-    <span id="watchdogText">🟡 <b>배당 파이프라인 정상 가동 중</b> — 토스 실전 계좌 보유 수량 100% 실시간 연동</span>
+    <span id="watchdogText">🟡 <b>배당 파이프라인 정상 가동 중</b> — 한투 &amp; 토스 실전 계좌 100% 연동 (4대 스레드 정상 박동 중)</span>
     <span id="watchdogSyncAge" style="color: var(--text-sub); font-weight: 600; font-size: 11px; white-space: nowrap; flex-shrink: 0;">방금 동기화</span>
   </div>
 
   <!-- Annual Summary Card -->
   <div class="summary-card">
     <div class="summary-title">
-      <span>토스 실전 계좌 연간 예상 총 배당금</span>
-      <span id="rateInfo">환율: 1,385원 기준</span>
+      <span>한투 &amp; 토스 실전 계좌 연간 예상 총 배당금</span>
+      <span id="rateInfo">환율: 1,420원 기준</span>
     </div>
     <div class="total-div" id="totalAnnualKrw">--원</div>
     <div class="sub-div-info" id="totalAnnualUsd">
@@ -322,11 +322,12 @@
           } else if (wdBanner && wdText) {
             wdBanner.style.background = 'rgba(245, 158, 11, 0.10)';
             wdBanner.style.borderColor = 'rgba(245, 158, 11, 0.30)';
-            wdText.innerHTML = '🟡 <b>배당 파이프라인 정상 가동 중</b> — 토스 실전 계좌 보유 수량 100% 실시간 연동';
+            const threadNote = (d.watchdog && d.watchdog.thread_status) ? ` (${d.watchdog.thread_status})` : '';
+            wdText.innerHTML = `🟡 <b>배당 파이프라인 정상 가동 중</b> — 한투 &amp; 토스 실전 계좌 100% 연동${threadNote}`;
           }
         }
       }
-      document.getElementById('rateInfo').textContent = '환율: ' + (d.usd_krw_rate ? d.usd_krw_rate.toLocaleString() : '1,385') + '원 기준';
+      document.getElementById('rateInfo').textContent = '환율: ' + (d.usd_krw_rate ? d.usd_krw_rate.toLocaleString() : '1,420') + '원 기준';
 
       const annualKrw = d.total_annual_krw || 0;
       const annualUsd = d.total_annual_usd || 0;
