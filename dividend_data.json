@@ -1,10 +1,15 @@
 {
-  "updated_at": "2026-11-08 03:02:48",
-  "usd_krw_rate": 1385.0,
-  "battery": "27% (⚡ DISCHARGING)",
-  "total_annual_krw": 98428,
+  "updated_at": "2026-11-08 03:13:04",
+  "usd_krw_rate": 1420.0,
+  "battery": "100% (⚡ 완충됨)",
+  "total_annual_krw": 100023,
   "total_annual_usd": 45.56,
-  "avg_monthly_krw": 8202,
+  "avg_monthly_krw": 8335,
+  "watchdog": {
+    "status": "HEALTHY",
+    "thread_status": "🟢 모든 스레드 정상 박동 중",
+    "checked_at": "2026-11-07 23:55:00"
+  },
   "fun_metrics": {
     "chicken_annual": 4.3,
     "coffee_monthly": 1
@@ -83,7 +88,7 @@
         12
       ],
       "annual_pay": 7.76,
-      "annual_pay_krw": 10747,
+      "annual_pay_krw": 11019,
       "single_pay": 1.94,
       "yield_pct": 3.12,
       "desc": "62년 연속 배당 인상 배당킹 (워런 버핏의 평생 보유주)"
@@ -103,7 +108,7 @@
         12
       ],
       "annual_pay": 12.0,
-      "annual_pay_krw": 16620,
+      "annual_pay_krw": 17040,
       "single_pay": 3.0,
       "yield_pct": 3.45,
       "desc": "미국 100대 고배당 성장 ETF (10년 연속 배당성장)"
@@ -131,7 +136,7 @@
         12
       ],
       "annual_pay": 25.8,
-      "annual_pay_krw": 35733,
+      "annual_pay_krw": 36636,
       "single_pay": 2.15,
       "yield_pct": 5.14,
       "desc": "미국 초단기 국채 월배당 ETF (달러 안전 파킹 통장)"
@@ -142,7 +147,7 @@
       "month": 1,
       "krw_total": 0,
       "usd_total": 2.15,
-      "krw_converted_total": 2977,
+      "krw_converted_total": 3053,
       "stocks": [
         {
           "symbol": "SGOV",
@@ -150,8 +155,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
+          "pay_krw": 3053,
+          "pay_str": "$2.15 (약 3,053원)",
           "qty": 5.0
         }
       ]
@@ -160,7 +165,7 @@
       "month": 2,
       "krw_total": 0,
       "usd_total": 2.15,
-      "krw_converted_total": 2977,
+      "krw_converted_total": 3053,
       "stocks": [
         {
           "symbol": "SGOV",
@@ -168,8 +173,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
+          "pay_krw": 3053,
+          "pay_str": "$2.15 (약 3,053원)",
           "qty": 5.0
         }
       ]
@@ -178,7 +183,7 @@
       "month": 3,
       "krw_total": 0,
       "usd_total": 5.15,
-      "krw_converted_total": 7132,
+      "krw_converted_total": 7313,
       "stocks": [
         {
           "symbol": "SCHD",
@@ -186,8 +191,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 3.0,
-          "pay_krw": 4155,
-          "pay_str": "$3.00 (약 4,155원)",
+          "pay_krw": 4260,
+          "pay_str": "$3.00 (약 4,260원)",
           "qty": 4.0
         },
         {
@@ -196,8 +201,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
+          "pay_krw": 3053,
+          "pay_str": "$2.15 (약 3,053원)",
           "qty": 5.0
         }
       ]
@@ -206,7 +211,7 @@
       "month": 4,
       "krw_total": 10602,
       "usd_total": 4.09,
-      "krw_converted_total": 16265,
+      "krw_converted_total": 16409,
       "stocks": [
         {
           "symbol": "138040",
@@ -244,8 +249,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 1.94,
-          "pay_krw": 2686,
-          "pay_str": "$1.94 (약 2,686원)",
+          "pay_krw": 2754,
+          "pay_str": "$1.94 (약 2,754원)",
           "qty": 4.0
         },
         {
@@ -254,8 +259,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
+          "pay_krw": 3053,
+          "pay_str": "$2.15 (약 3,053원)",
           "qty": 5.0
         }
       ]
@@ -264,7 +269,7 @@
       "month": 5,
       "krw_total": 8242,
       "usd_total": 2.15,
-      "krw_converted_total": 11219,
+      "krw_converted_total": 11295,
       "stocks": [
         {
           "symbol": "005930",
@@ -292,8 +297,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
+          "pay_krw": 3053,
+          "pay_str": "$2.15 (약 3,053원)",
           "qty": 5.0
         }
       ]
@@ -302,7 +307,7 @@
       "month": 6,
       "krw_total": 0,
       "usd_total": 5.15,
-      "krw_converted_total": 7132,
+      "krw_converted_total": 7313,
       "stocks": [
         {
           "symbol": "SCHD",
@@ -310,8 +315,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 3.0,
-          "pay_krw": 4155,
-          "pay_str": "$3.00 (약 4,155원)",
+          "pay_krw": 4260,
+          "pay_str": "$3.00 (약 4,260원)",
           "qty": 4.0
         },
         {
@@ -320,8 +325,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
+          "pay_krw": 3053,
+          "pay_str": "$2.15 (약 3,053원)",
           "qty": 5.0
         }
       ]
@@ -330,7 +335,7 @@
       "month": 7,
       "krw_total": 0,
       "usd_total": 4.09,
-      "krw_converted_total": 5663,
+      "krw_converted_total": 5807,
       "stocks": [
         {
           "symbol": "KO",
@@ -338,8 +343,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 1.94,
-          "pay_krw": 2686,
-          "pay_str": "$1.94 (약 2,686원)",
+          "pay_krw": 2754,
+          "pay_str": "$1.94 (약 2,754원)",
           "qty": 4.0
         },
         {
@@ -348,8 +353,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
+          "pay_krw": 3053,
+          "pay_str": "$2.15 (약 3,053원)",
           "qty": 5.0
         }
       ]
@@ -358,7 +363,7 @@
       "month": 8,
       "krw_total": 8242,
       "usd_total": 2.15,
-      "krw_converted_total": 11219,
+      "krw_converted_total": 11295,
       "stocks": [
         {
           "symbol": "005930",
@@ -386,8 +391,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
+          "pay_krw": 3053,
+          "pay_str": "$2.15 (약 3,053원)",
           "qty": 5.0
         }
       ]
@@ -396,7 +401,7 @@
       "month": 9,
       "krw_total": 0,
       "usd_total": 5.15,
-      "krw_converted_total": 7132,
+      "krw_converted_total": 7313,
       "stocks": [
         {
           "symbol": "SCHD",
@@ -404,8 +409,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 3.0,
-          "pay_krw": 4155,
-          "pay_str": "$3.00 (약 4,155원)",
+          "pay_krw": 4260,
+          "pay_str": "$3.00 (약 4,260원)",
           "qty": 4.0
         },
         {
@@ -414,8 +419,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
+          "pay_krw": 3053,
+          "pay_str": "$2.15 (약 3,053원)",
           "qty": 5.0
         }
       ]
@@ -424,7 +429,7 @@
       "month": 10,
       "krw_total": 0,
       "usd_total": 4.09,
-      "krw_converted_total": 5663,
+      "krw_converted_total": 5807,
       "stocks": [
         {
           "symbol": "KO",
@@ -432,8 +437,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 1.94,
-          "pay_krw": 2686,
-          "pay_str": "$1.94 (약 2,686원)",
+          "pay_krw": 2754,
+          "pay_str": "$1.94 (약 2,754원)",
           "qty": 4.0
         },
         {
@@ -442,8 +447,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
+          "pay_krw": 3053,
+          "pay_str": "$2.15 (약 3,053원)",
           "qty": 5.0
         }
       ]
@@ -452,7 +457,7 @@
       "month": 11,
       "krw_total": 8242,
       "usd_total": 2.15,
-      "krw_converted_total": 11219,
+      "krw_converted_total": 11295,
       "stocks": [
         {
           "symbol": "005930",
@@ -480,8 +485,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
+          "pay_krw": 3053,
+          "pay_str": "$2.15 (약 3,053원)",
           "qty": 5.0
         }
       ]
@@ -490,7 +495,7 @@
       "month": 12,
       "krw_total": 0,
       "usd_total": 7.09,
-      "krw_converted_total": 9818,
+      "krw_converted_total": 10067,
       "stocks": [
         {
           "symbol": "KO",
@@ -498,8 +503,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 1.94,
-          "pay_krw": 2686,
-          "pay_str": "$1.94 (약 2,686원)",
+          "pay_krw": 2754,
+          "pay_str": "$1.94 (약 2,754원)",
           "qty": 4.0
         },
         {
@@ -508,8 +513,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 3.0,
-          "pay_krw": 4155,
-          "pay_str": "$3.00 (약 4,155원)",
+          "pay_krw": 4260,
+          "pay_str": "$3.00 (약 4,260원)",
           "qty": 4.0
         },
         {
@@ -518,8 +523,8 @@
           "country": "US",
           "currency": "USD",
           "pay": 2.15,
-          "pay_krw": 2977,
-          "pay_str": "$2.15 (약 2,977원)",
+          "pay_krw": 3053,
+          "pay_str": "$2.15 (약 3,053원)",
           "qty": 5.0
         }
       ]
@@ -550,7 +555,7 @@
       "symbol": "SGOV",
       "name": "iShares 0-3 Month Treasury Bond ETF",
       "country": "US",
-      "pay_str": "$2.15 (약 2,977원)",
+      "pay_str": "$2.15 (약 3,053원)",
       "qty": 5.0
     },
     {
@@ -559,7 +564,7 @@
       "symbol": "KO",
       "name": "코카콜라 (Coca-Cola)",
       "country": "US",
-      "pay_str": "$1.94 (약 2,686원)",
+      "pay_str": "$1.94 (약 2,754원)",
       "qty": 4.0
     },
     {
@@ -568,7 +573,7 @@
       "symbol": "SCHD",
       "name": "Schwab U.S. Dividend Equity ETF",
       "country": "US",
-      "pay_str": "$3.00 (약 4,155원)",
+      "pay_str": "$3.00 (약 4,260원)",
       "qty": 4.0
     },
     {
@@ -577,7 +582,7 @@
       "symbol": "SGOV",
       "name": "iShares 0-3 Month Treasury Bond ETF",
       "country": "US",
-      "pay_str": "$2.15 (약 2,977원)",
+      "pay_str": "$2.15 (약 3,053원)",
       "qty": 5.0
     }
   ]
