@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-08 03:16:12",
+  "updated_at": "2026-11-08 03:27:32",
   "usd_krw_rate": 1420.0,
-  "battery": "26% (⚡ DISCHARGING)",
+  "battery": "26% (⚡ CHARGING)",
   "total_annual_krw": 100023,
   "total_annual_usd": 45.56,
   "avg_monthly_krw": 8335,
   "watchdog": {
     "status": "HEALTHY",
     "thread_status": "🟢 4대 스레드(메인·토스·스케줄러·감시망) 정상 박동 중",
-    "checked_at": "2026-11-08 03:15:07"
+    "checked_at": "2026-11-08 03:26:32"
   },
   "fun_metrics": {
     "chicken_annual": 4.3,
