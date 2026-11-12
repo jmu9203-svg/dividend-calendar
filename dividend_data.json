@@ -1,38 +1,21 @@
 {
-  "updated_at": "2026-11-12 10:49:49",
+  "updated_at": "2026-11-12 10:55:50",
   "usd_krw_rate": 1420.0,
-  "battery": "82% (🔋 DISCHARGING)",
-  "total_annual_krw": 101223,
+  "battery": "81% (🔋 DISCHARGING)",
+  "total_annual_krw": 98863,
   "total_annual_usd": 45.56,
-  "avg_monthly_krw": 8435,
+  "avg_monthly_krw": 8238,
   "watchdog": {
     "status": "HEALTHY",
     "thread_status": "🟢 5대 스레드(메인·토스·전략감시·스케줄러·감시망) 정상 박동 중",
-    "checked_at": "2026-11-12 10:48:57"
+    "checked_at": "2026-11-12 10:54:58"
   },
   "fun_metrics": {
-    "chicken_annual": 4.4,
+    "chicken_annual": 4.3,
     "coffee_monthly": 1
   },
-  "item_count": 6,
+  "item_count": 5,
   "items": [
-    {
-      "symbol": "138040",
-      "name": "메리츠금융지주",
-      "country": "KR",
-      "currency": "KRW",
-      "total_qty": 1.0,
-      "account_desc": "토스 1주",
-      "freq_label": "결산배당 (4월)",
-      "pay_months": [
-        4
-      ],
-      "annual_pay": 2360,
-      "annual_pay_krw": 2360,
-      "single_pay": 2360,
-      "yield_pct": 1.95,
-      "desc": "국내 최고 주주환원율(50%↑) 밸류업 대장주"
-    },
     {
       "symbol": "005930",
       "name": "삼성전자",
@@ -209,20 +192,10 @@
     },
     {
       "month": 4,
-      "krw_total": 10902,
+      "krw_total": 8542,
       "usd_total": 4.09,
-      "krw_converted_total": 16709,
+      "krw_converted_total": 14349,
       "stocks": [
-        {
-          "symbol": "138040",
-          "name": "메리츠금융지주",
-          "country": "KR",
-          "currency": "KRW",
-          "pay": 2360,
-          "pay_krw": 2360,
-          "pay_str": "2,360원",
-          "qty": 1.0
-        },
         {
           "symbol": "005930",
           "name": "삼성전자",
