@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-11-21 04:20:42",
+  "updated_at": "2026-11-21 04:26:47",
   "usd_krw_rate": 1420.0,
   "battery": "85% (⚡ NOT_CHARGING)",
-  "total_annual_krw": 98863,
-  "total_annual_usd": 45.56,
-  "avg_monthly_krw": 8238,
+  "total_annual_krw": 115903,
+  "total_annual_usd": 57.56,
+  "avg_monthly_krw": 9658,
   "watchdog": {
     "status": "HEALTHY",
     "thread_status": "🟢 5대 스레드(메인·토스·전략감시·스케줄러·감시망) 정상 박동 중",
-    "checked_at": "2026-11-21 04:19:44"
+    "checked_at": "2026-11-21 04:25:55"
   },
   "fun_metrics": {
-    "chicken_annual": 4.3,
-    "coffee_monthly": 1
+    "chicken_annual": 5.0,
+    "coffee_monthly": 2
   },
   "item_count": 5,
   "items": [
@@ -81,8 +81,8 @@
       "name": "Schwab U.S. Dividend Equity ETF",
       "country": "US",
       "currency": "USD",
-      "total_qty": 4.0,
-      "account_desc": "토스 4주",
+      "total_qty": 8.0,
+      "account_desc": "토스 8주",
       "freq_label": "분기배당 (3, 6, 9, 12월)",
       "pay_months": [
         3,
@@ -90,9 +90,9 @@
         9,
         12
       ],
-      "annual_pay": 12.0,
-      "annual_pay_krw": 17040,
-      "single_pay": 3.0,
+      "annual_pay": 24.0,
+      "annual_pay_krw": 34080,
+      "single_pay": 6.0,
       "yield_pct": 3.45,
       "desc": "미국 100대 고배당 성장 ETF (10년 연속 배당성장)"
     },
@@ -165,18 +165,18 @@
     {
       "month": 3,
       "krw_total": 0,
-      "usd_total": 5.15,
-      "krw_converted_total": 7313,
+      "usd_total": 8.15,
+      "krw_converted_total": 11573,
       "stocks": [
         {
           "symbol": "SCHD",
           "name": "Schwab U.S. Dividend Equity ETF",
           "country": "US",
           "currency": "USD",
-          "pay": 3.0,
-          "pay_krw": 4260,
-          "pay_str": "$3.00 (약 4,260원)",
-          "qty": 4.0
+          "pay": 6.0,
+          "pay_krw": 8520,
+          "pay_str": "$6.00 (약 8,520원)",
+          "qty": 8.0
         },
         {
           "symbol": "SGOV",
@@ -279,18 +279,18 @@
     {
       "month": 6,
       "krw_total": 0,
-      "usd_total": 5.15,
-      "krw_converted_total": 7313,
+      "usd_total": 8.15,
+      "krw_converted_total": 11573,
       "stocks": [
         {
           "symbol": "SCHD",
           "name": "Schwab U.S. Dividend Equity ETF",
           "country": "US",
           "currency": "USD",
-          "pay": 3.0,
-          "pay_krw": 4260,
-          "pay_str": "$3.00 (약 4,260원)",
-          "qty": 4.0
+          "pay": 6.0,
+          "pay_krw": 8520,
+          "pay_str": "$6.00 (약 8,520원)",
+          "qty": 8.0
         },
         {
           "symbol": "SGOV",
@@ -373,18 +373,18 @@
     {
       "month": 9,
       "krw_total": 0,
-      "usd_total": 5.15,
-      "krw_converted_total": 7313,
+      "usd_total": 8.15,
+      "krw_converted_total": 11573,
       "stocks": [
         {
           "symbol": "SCHD",
           "name": "Schwab U.S. Dividend Equity ETF",
           "country": "US",
           "currency": "USD",
-          "pay": 3.0,
-          "pay_krw": 4260,
-          "pay_str": "$3.00 (약 4,260원)",
-          "qty": 4.0
+          "pay": 6.0,
+          "pay_krw": 8520,
+          "pay_str": "$6.00 (약 8,520원)",
+          "qty": 8.0
         },
         {
           "symbol": "SGOV",
@@ -467,8 +467,8 @@
     {
       "month": 12,
       "krw_total": 0,
-      "usd_total": 7.09,
-      "krw_converted_total": 10067,
+      "usd_total": 10.09,
+      "krw_converted_total": 14327,
       "stocks": [
         {
           "symbol": "KO",
@@ -485,10 +485,10 @@
           "name": "Schwab U.S. Dividend Equity ETF",
           "country": "US",
           "currency": "USD",
-          "pay": 3.0,
-          "pay_krw": 4260,
-          "pay_str": "$3.00 (약 4,260원)",
-          "qty": 4.0
+          "pay": 6.0,
+          "pay_krw": 8520,
+          "pay_str": "$6.00 (약 8,520원)",
+          "qty": 8.0
         },
         {
           "symbol": "SGOV",
@@ -546,8 +546,8 @@
       "symbol": "SCHD",
       "name": "Schwab U.S. Dividend Equity ETF",
       "country": "US",
-      "pay_str": "$3.00 (약 4,260원)",
-      "qty": 4.0
+      "pay_str": "$6.00 (약 8,520원)",
+      "qty": 8.0
     },
     {
       "month": 12,
