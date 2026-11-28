@@ -1,442 +1,106 @@
 {
-  "updated_at": "2026-11-28 23:44:24",
+  "updated_at": "2026-11-28 23:55:50",
   "usd_krw_rate": 1420.0,
   "battery": "85% (⚡ NOT_CHARGING)",
-  "total_annual_krw": 81735,
-  "total_annual_usd": 57.56,
-  "avg_monthly_krw": 6811,
+  "total_annual_krw": 0,
+  "total_annual_usd": 0.0,
+  "avg_monthly_krw": 0,
   "watchdog": {
     "status": "HEALTHY",
     "thread_status": "🟢 5대 스레드(메인·토스·전략감시·스케줄러·감시망) 정상 박동 중",
-    "checked_at": "2026-11-28 23:43:06"
+    "checked_at": "2026-11-28 23:54:34"
   },
   "fun_metrics": {
-    "chicken_annual": 3.6,
+    "chicken_annual": 0.0,
     "coffee_monthly": 1
   },
-  "item_count": 3,
-  "items": [
-    {
-      "symbol": "KO",
-      "name": "코카콜라 (Coca-Cola)",
-      "country": "US",
-      "currency": "USD",
-      "total_qty": 4.0,
-      "account_desc": "토스 4주",
-      "freq_label": "분기배당 (4, 7, 10, 12월)",
-      "pay_months": [
-        4,
-        7,
-        10,
-        12
-      ],
-      "annual_pay": 7.76,
-      "annual_pay_krw": 11019,
-      "single_pay": 1.94,
-      "yield_pct": 3.12,
-      "desc": "62년 연속 배당 인상 배당킹 (워런 버핏의 평생 보유주)"
-    },
-    {
-      "symbol": "SCHD",
-      "name": "Schwab U.S. Dividend Equity ETF",
-      "country": "US",
-      "currency": "USD",
-      "total_qty": 8.0,
-      "account_desc": "토스 8주",
-      "freq_label": "분기배당 (3, 6, 9, 12월)",
-      "pay_months": [
-        3,
-        6,
-        9,
-        12
-      ],
-      "annual_pay": 24.0,
-      "annual_pay_krw": 34080,
-      "single_pay": 6.0,
-      "yield_pct": 3.45,
-      "desc": "미국 100대 고배당 성장 ETF (10년 연속 배당성장)"
-    },
-    {
-      "symbol": "SGOV",
-      "name": "iShares 0-3 Month Treasury Bond ETF",
-      "country": "US",
-      "currency": "USD",
-      "total_qty": 5.0,
-      "account_desc": "토스 5주",
-      "freq_label": "월배당 (1~12월 매월 초)",
-      "pay_months": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12
-      ],
-      "annual_pay": 25.8,
-      "annual_pay_krw": 36636,
-      "single_pay": 2.15,
-      "yield_pct": 5.14,
-      "desc": "미국 초단기 국채 월배당 ETF (달러 안전 파킹 통장)"
-    }
-  ],
+  "item_count": 0,
+  "items": [],
   "monthly_calendar": [
     {
       "month": 1,
       "krw_total": 0,
-      "usd_total": 2.15,
-      "krw_converted_total": 3053,
-      "stocks": [
-        {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 3053,
-          "pay_str": "$2.15 (약 3,053원)",
-          "qty": 5.0
-        }
-      ]
+      "usd_total": 0.0,
+      "krw_converted_total": 0,
+      "stocks": []
     },
     {
       "month": 2,
       "krw_total": 0,
-      "usd_total": 2.15,
-      "krw_converted_total": 3053,
-      "stocks": [
-        {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 3053,
-          "pay_str": "$2.15 (약 3,053원)",
-          "qty": 5.0
-        }
-      ]
+      "usd_total": 0.0,
+      "krw_converted_total": 0,
+      "stocks": []
     },
     {
       "month": 3,
       "krw_total": 0,
-      "usd_total": 8.15,
-      "krw_converted_total": 11573,
-      "stocks": [
-        {
-          "symbol": "SCHD",
-          "name": "Schwab U.S. Dividend Equity ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 6.0,
-          "pay_krw": 8520,
-          "pay_str": "$6.00 (약 8,520원)",
-          "qty": 8.0
-        },
-        {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 3053,
-          "pay_str": "$2.15 (약 3,053원)",
-          "qty": 5.0
-        }
-      ]
+      "usd_total": 0.0,
+      "krw_converted_total": 0,
+      "stocks": []
     },
     {
       "month": 4,
       "krw_total": 0,
-      "usd_total": 4.09,
-      "krw_converted_total": 5807,
-      "stocks": [
-        {
-          "symbol": "KO",
-          "name": "코카콜라 (Coca-Cola)",
-          "country": "US",
-          "currency": "USD",
-          "pay": 1.94,
-          "pay_krw": 2754,
-          "pay_str": "$1.94 (약 2,754원)",
-          "qty": 4.0
-        },
-        {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 3053,
-          "pay_str": "$2.15 (약 3,053원)",
-          "qty": 5.0
-        }
-      ]
+      "usd_total": 0.0,
+      "krw_converted_total": 0,
+      "stocks": []
     },
     {
       "month": 5,
       "krw_total": 0,
-      "usd_total": 2.15,
-      "krw_converted_total": 3053,
-      "stocks": [
-        {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 3053,
-          "pay_str": "$2.15 (약 3,053원)",
-          "qty": 5.0
-        }
-      ]
+      "usd_total": 0.0,
+      "krw_converted_total": 0,
+      "stocks": []
     },
     {
       "month": 6,
       "krw_total": 0,
-      "usd_total": 8.15,
-      "krw_converted_total": 11573,
-      "stocks": [
-        {
-          "symbol": "SCHD",
-          "name": "Schwab U.S. Dividend Equity ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 6.0,
-          "pay_krw": 8520,
-          "pay_str": "$6.00 (약 8,520원)",
-          "qty": 8.0
-        },
-        {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 3053,
-          "pay_str": "$2.15 (약 3,053원)",
-          "qty": 5.0
-        }
-      ]
+      "usd_total": 0.0,
+      "krw_converted_total": 0,
+      "stocks": []
     },
     {
       "month": 7,
       "krw_total": 0,
-      "usd_total": 4.09,
-      "krw_converted_total": 5807,
-      "stocks": [
-        {
-          "symbol": "KO",
-          "name": "코카콜라 (Coca-Cola)",
-          "country": "US",
-          "currency": "USD",
-          "pay": 1.94,
-          "pay_krw": 2754,
-          "pay_str": "$1.94 (약 2,754원)",
-          "qty": 4.0
-        },
-        {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 3053,
-          "pay_str": "$2.15 (약 3,053원)",
-          "qty": 5.0
-        }
-      ]
+      "usd_total": 0.0,
+      "krw_converted_total": 0,
+      "stocks": []
     },
     {
       "month": 8,
       "krw_total": 0,
-      "usd_total": 2.15,
-      "krw_converted_total": 3053,
-      "stocks": [
-        {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 3053,
-          "pay_str": "$2.15 (약 3,053원)",
-          "qty": 5.0
-        }
-      ]
+      "usd_total": 0.0,
+      "krw_converted_total": 0,
+      "stocks": []
     },
     {
       "month": 9,
       "krw_total": 0,
-      "usd_total": 8.15,
-      "krw_converted_total": 11573,
-      "stocks": [
-        {
-          "symbol": "SCHD",
-          "name": "Schwab U.S. Dividend Equity ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 6.0,
-          "pay_krw": 8520,
-          "pay_str": "$6.00 (약 8,520원)",
-          "qty": 8.0
-        },
-        {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 3053,
-          "pay_str": "$2.15 (약 3,053원)",
-          "qty": 5.0
-        }
-      ]
+      "usd_total": 0.0,
+      "krw_converted_total": 0,
+      "stocks": []
     },
     {
       "month": 10,
       "krw_total": 0,
-      "usd_total": 4.09,
-      "krw_converted_total": 5807,
-      "stocks": [
-        {
-          "symbol": "KO",
-          "name": "코카콜라 (Coca-Cola)",
-          "country": "US",
-          "currency": "USD",
-          "pay": 1.94,
-          "pay_krw": 2754,
-          "pay_str": "$1.94 (약 2,754원)",
-          "qty": 4.0
-        },
-        {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 3053,
-          "pay_str": "$2.15 (약 3,053원)",
-          "qty": 5.0
-        }
-      ]
+      "usd_total": 0.0,
+      "krw_converted_total": 0,
+      "stocks": []
     },
     {
       "month": 11,
       "krw_total": 0,
-      "usd_total": 2.15,
-      "krw_converted_total": 3053,
-      "stocks": [
-        {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 3053,
-          "pay_str": "$2.15 (약 3,053원)",
-          "qty": 5.0
-        }
-      ]
+      "usd_total": 0.0,
+      "krw_converted_total": 0,
+      "stocks": []
     },
     {
       "month": 12,
       "krw_total": 0,
-      "usd_total": 10.09,
-      "krw_converted_total": 14327,
-      "stocks": [
-        {
-          "symbol": "KO",
-          "name": "코카콜라 (Coca-Cola)",
-          "country": "US",
-          "currency": "USD",
-          "pay": 1.94,
-          "pay_krw": 2754,
-          "pay_str": "$1.94 (약 2,754원)",
-          "qty": 4.0
-        },
-        {
-          "symbol": "SCHD",
-          "name": "Schwab U.S. Dividend Equity ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 6.0,
-          "pay_krw": 8520,
-          "pay_str": "$6.00 (약 8,520원)",
-          "qty": 8.0
-        },
-        {
-          "symbol": "SGOV",
-          "name": "iShares 0-3 Month Treasury Bond ETF",
-          "country": "US",
-          "currency": "USD",
-          "pay": 2.15,
-          "pay_krw": 3053,
-          "pay_str": "$2.15 (약 3,053원)",
-          "qty": 5.0
-        }
-      ]
+      "usd_total": 0.0,
+      "krw_converted_total": 0,
+      "stocks": []
     }
   ],
-  "upcoming_payments": [
-    {
-      "month": 11,
-      "month_label": "이번 달(11월)",
-      "symbol": "SGOV",
-      "name": "iShares 0-3 Month Treasury Bond ETF",
-      "country": "US",
-      "pay_str": "$2.15 (약 3,053원)",
-      "qty": 5.0
-    },
-    {
-      "month": 12,
-      "month_label": "12월 지급 예정",
-      "symbol": "KO",
-      "name": "코카콜라 (Coca-Cola)",
-      "country": "US",
-      "pay_str": "$1.94 (약 2,754원)",
-      "qty": 4.0
-    },
-    {
-      "month": 12,
-      "month_label": "12월 지급 예정",
-      "symbol": "SCHD",
-      "name": "Schwab U.S. Dividend Equity ETF",
-      "country": "US",
-      "pay_str": "$6.00 (약 8,520원)",
-      "qty": 8.0
-    },
-    {
-      "month": 12,
-      "month_label": "12월 지급 예정",
-      "symbol": "SGOV",
-      "name": "iShares 0-3 Month Treasury Bond ETF",
-      "country": "US",
-      "pay_str": "$2.15 (약 3,053원)",
-      "qty": 5.0
-    },
-    {
-      "month": 1,
-      "month_label": "1월 지급 예정",
-      "symbol": "SGOV",
-      "name": "iShares 0-3 Month Treasury Bond ETF",
-      "country": "US",
-      "pay_str": "$2.15 (약 3,053원)",
-      "qty": 5.0
-    },
-    {
-      "month": 2,
-      "month_label": "2월 지급 예정",
-      "symbol": "SGOV",
-      "name": "iShares 0-3 Month Treasury Bond ETF",
-      "country": "US",
-      "pay_str": "$2.15 (약 3,053원)",
-      "qty": 5.0
-    }
-  ]
+  "upcoming_payments": []
 }
